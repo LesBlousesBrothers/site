@@ -1,4 +1,0 @@
-Un autre test pour faire un pull avant push
-Et maintenant de quoi faire un push
-
-Encore quelque chose avant pull
