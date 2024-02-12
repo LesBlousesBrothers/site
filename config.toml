@@ -1,0 +1,41 @@
+baseURL = 'https://example.org/'
+languageCode = 'fr-fr'
+title = 'BB82'
+
+[markup.goldmark.renderer]
+  unsafe = true # Allow HTML in md files
+
+
+[mediaTypes."application/json"]
+  suffixes = ["json"]
+
+[outputFormats]
+  [outputFormats.json]
+    mediaType = "application/json"
+
+[menu]
+  [[menu.main]]
+    identifier = "accueil"
+    name = "Accueil"
+    url = "/"
+    weight = 1    
+  [[menu.main]]
+    identifier = "apropos"
+    name = "À propos"
+    url = "/apropos"
+    weight = 10
+  [[menu.main]]
+    identifier = "bricotheque"
+    name = "Bricothèque"
+    url = "/bricotheque"
+    weight = 20
+  [[menu.main]]
+    identifier = "agenda"
+    name = "Agenda"
+    url = "/agenda"
+    weight = 30
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact"
+    weight = 40
