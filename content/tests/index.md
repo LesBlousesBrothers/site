@@ -19,7 +19,7 @@ draft = false
       
 </div>
 
-{{< images/testImg alt="je ne vois rien" >}}
+<!-- {{< images/testImg alt="je ne vois rien" >}} -->
 <br>
 
 
