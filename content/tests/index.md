@@ -6,12 +6,12 @@ draft = false
 <!-- <h2 class="bg-gray-200 font-bold text-white text-center" >testH2 de _index.md</h2> -->
 <br>
 
-
+<!-- {{< images/srcsetInAssets src="image.jpg" alt="toujours pas là" >}} -->
 
 <div class="w-full px-2 md:px-0  mx-auto md:w-full md:grid md:grid-cols-5 font-bold text-center justify-center items-center bg-mycolor-300">
     <div class=" md:col-span-2 ">
-        <!-- <img  class="object-cover object-center " src="images/blousesEnTete.jpg" alt="la bannière des blouses brothers"/>  -->
-        {{< images/srcsetInAssets src="blousesEnTete.jpg" alt="la bannière des BB82" >}}
+        <img  class="object-cover object-center " src="images/blousesEnTete.jpg" alt="la bannière des blouses brothers"/> 
+        <!-- {{< images/srcsetInAssets src="blousesEnTete.jpg" alt="la bannière des BB82" >}} -->
     </div>  
     <div class="md:col-span-3 ">
         <h2 class=" text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl  text-white ">LES BLOUSES BROTHERS{{<  typo/space >}}<span class="italic md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl">Tarn-et-Garonne</span></h2>
@@ -19,7 +19,7 @@ draft = false
       
 </div>
 
-
+{{< images/testImg alt="je ne vois rien" >}}
 <br>
 
 
@@ -237,9 +237,9 @@ Autre image
 
 ## Tester srcset et webp
 
-<div class="w-3/4 mx-auto">
+<!-- <div class="w-3/4 mx-auto">
 {{< images/srcsetInAssets src="image.jpg" alt="une séance de repair café" >}}
 </div>
-{{< images/srcsetInPage src="imagePage.jpg" alt="une séance de repair café" >}}
+{{< images/srcsetInPage src="imagePage.jpg" alt="une séance de repair café" >}} -->
 
 <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23795548&ctz=Europe%2FParis&src=bWNiZXRoODJAZ21haWwuY29t&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZnIuZnJlbmNoI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB&color=%2333B679&color=%230B8043" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>

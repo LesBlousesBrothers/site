@@ -1,0 +1,8 @@
+<!--Test de chemin d'images-->
+{{ $image := resources.Get "images/image.jpg"}}
+
+<img src="{{ $image.RelPermalink }}" alt="rien de rien">
+
+{{ $image2 := .Page.Resources.Get "recup2.jpg" }}
+<img src="{{ $image.RelPermalink }}" alt="gros gros échec">
+ 

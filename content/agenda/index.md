@@ -14,13 +14,3 @@ draft = false
 
 {{< typo/spaceLine>}}
 
-<!-- {{< divers/agendaShowDates src="cafeBrico.jpg" alt="le prochain café bricole" >}} -->
-<div class="w-5/12 mx-auto">
-{{< divers/agendaShowDates src="cafeBrico.jpg" alt="le prochain café bricole" yearStart="2024" monthStart="01" dayStart="20" yearEnd="2024" monthEnd="03" dayEnd="02">}}
-</div>
-<!-- ![texte alternatif](cafeBrico.jpg) -->
-
-{{< typo/spaceLine >}}
-<div class="w-5/12 mx-auto">
-{{< divers/agendaEnterOneDate src="cafeBrico.jpg" alt="le prochain café bricole" year="2024" month="03" day="6" >}}
-</div>
