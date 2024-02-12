@@ -1,0 +1,66 @@
+{{$image := (.Page.Resources.ByType "image").GetMatch ("chevaux.jpg")}}
+
+
+<!-- créations des tailles d'images selon les breakpoints !-->
+
+{{ $tinyBP := "320" }}
+{{ $smallBP := "640" }}
+{{ $mediumBP := "768" }}
+{{ $largeBP := "1024" }}
+{{ $XlargeBP := "1280" }}
+{{ $2XlargeBP := "1536" }}
+{{ $webpBP := "800"}}
+
+
+{{ $tinyx := print $tinyBP "x" }}
+{{ $smallx := print $smallBP "x" }}
+{{ $mediumx := print $mediumBP "x" }}
+{{ $largex := print $largeBP "x" }}
+{{ $Xlargex := print $XlargeBP "x" }}
+{{ $2Xlargex := print $2XlargeBP "x" }}
+{{ $webpx := print $webpBP "x webp"}}
+
+{{ $tinyw := print $tinyBP "w" }}
+{{ $smallw := print $smallBP "w" }}
+{{ $mediumw := print $mediumBP "w" }}
+{{ $largew := print $largeBP "w" }}
+{{ $Xlargew := print $XlargeBP "w" }}
+{{ $2Xlargew := print $2XlargeBP "w" }}
+{{ $webpw := print $webpBP "w webp"}}
+
+
+<!-- redimensionnement des images -->
+
+
+{{ $tiny := $image.Resize $tinyx }}
+{{ $small := $image.Resize $smallx }}
+{{ $medium := $image.Resize $mediumx }}
+{{ $large := $image.Resize $largex }}
+{{ $Xlarge := $image.Resize $Xlargex }}
+{{ $2Xlarge := $image.Resize $2Xlargex }}
+<!-- {{ $webp := $image.Resize (print $webpx "q-100" )}} -->
+{{ $webp := $image.Resize "600x webp -q25"}}
+
+
+
+
+
+    <p class="text-center italic pb-3 md:pb-8 lg:pb-12 text-mycolor-900 text-lg">une recette de </p>
+    <div >
+        <figure>
+            <picture>
+                <source srcset="{{$webp.Permalink}}" type="image/webp">
+                <source srcset='
+                    {{$tiny.Permalink}} {{$tinyw}},
+                    {{$small.Permalink}} {{$smallw}},
+                    {{$medium.Permalink}} {{$mediumw}},
+                    {{$large.Permalink}} {{$largew}},
+                    {{$Xlarge.Permalink}} {{$Xlargew}},
+                    {{$2Xlarge.Permalink}} {{$2Xlargew}}'
+                    sizes="70vw"
+                >
+                <img class="mx-auto w-1/2 " src="{{ $medium.Permalink}}" alt="le lac"  width="{{$medium.Width}}" height="{{$medium.Height}}">
+            </picture>
+        </figure> 
+    </div>
+    

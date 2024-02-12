@@ -1,0 +1,8 @@
+<div class="bg-pink-200">
+
+{{ range readDir "/resources/_gen/images/" }}
+
+    {{ .Name}} / {{ .Size}} <br>
+
+{{ end }}
+</div>

@@ -1,0 +1,79 @@
+<!-- div visible en fonction de dates
+Pour masquer élément si date de péremption dépassée 
+Pour une image du style brico café
+Ici on ne rentre que la date de péremption
+On fixe le délai de parution à 30 jours avant la péremption.
+On pourrait créer un .Get pour ajuster le délai à la valeur voulue-->
+{{ $respSizes := slice "320" "640" "960" "1280" "1600" "1920" }}
+{{ $src := .Page.Resources.Get (printf "%s" (.Get "src"))}}
+{{ $alt := .Get "alt" }}
+
+
+{{ $year := .Get "year" }}
+{{ $month := .Get "month" }}
+{{ $day := .Get "day" }}
+
+
+{{ $date := printf "-%s" $day | printf "-%s%s" $month | printf " %s%s" $year}}
+
+{{ $id := printf "agenda-%s" $date }}
+
+
+{{ $divClass := "" }}
+{{ $imgClass := "w-full h-auto " }}
+{{ $dataSzes := "(min-width: 1024px) 100vw, 50vw" }}
+{{ $actualImg := $src.Resize "640x jpg" }}
+
+
+<picture id="{{ $id }}" class="hidden">
+    <source
+      type="image/webp"
+      srcset="
+        {{- with $respSizes -}}
+          {{- range $i, $e := . -}}
+          {{- if ge $src.Width . -}}
+            {{- if $i }}, {{ end -}}{{- ($src.Resize (printf "%sx%s" . " webp") ).RelPermalink }} {{ . }}w
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}"
+      sizes="{{ $dataSzes }}"
+    />
+    <source
+      type="image/jpeg"
+      srcset="
+        {{- with $respSizes -}}
+          {{- range $i, $e := . -}}
+            {{- if ge $src.Width . -}}
+              {{- if $i }}, {{ end -}}{{- ($src.Resize (printf "%sx%s" . " jpg") ).RelPermalink }} {{ . }}w
+            {{- end -}}
+        {{- end -}}
+      {{- end -}}"\
+      sizes="{{ $dataSzes }}"
+    />
+    <img class="{{ $imgClass }}"
+      src="{{ $actualImg.RelPermalink }}"
+      width="{{ $src.Width }}"
+      height="{{ $src.Height }}"
+      alt="{{ $alt }}"
+      loading="lazy"
+    />
+  </picture>
+  
+
+<script>
+    var now = new Date();
+    var between = 30;
+
+    var dateEnd = new Date({{$date}});
+    dateEnd.setDate(dateEnd.getDate() + 1)
+    var dateStart = new Date({{$date}})
+    dateStart.setDate(dateStart.getDate() - between);
+    
+   
+   
+    if (now < dateEnd && now > dateStart) {
+        document.getElementById({{ $id }}).style.display = "block";
+    }
+
+</script>
+

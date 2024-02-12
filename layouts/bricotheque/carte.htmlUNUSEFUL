@@ -1,0 +1,9 @@
+{{ define "main" }}
+<p> ceci est le layout html de BRICOTHEQUE !</p>
+
+  {{ .Content }}
+
+
+
+
+{{ end }}

@@ -1,0 +1,6 @@
+{{ define "main" }}
+<p> ceci est le single html de BRICOTHEQUE !</p>
+
+  {{ .Content }}
+
+{{ end }}

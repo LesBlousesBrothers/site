@@ -1,0 +1,22 @@
+
+<div class="grid md:grid-cols-2 2xl:grid-cols-5 gap-x-8 py-4 bg-mycolor-600" >
+
+    <div class="px-1 md:pl-4 md:pt-0  text-white  md:col-span-1 2xl:col-span-2 ">   
+        {{ .Inner | markdownify}}
+    </div> 
+
+    <div class=" pt-4 px-1 md:pt-0 max-w-full mx-auto  md:px-12   md:col-span-1  2xl:col-span-3 md:vline-l-light">
+        
+        <img class="hidden md:block shadow-xl border border-mycolor-400" src="{{ .Get "imgMD" }}"  loading="lazy"/>
+        <img class="block md:hidden shadow-xl border border-mycolor-400" src="{{ .Get "img" }}"  loading="lazy" />
+       
+    </div>
+    
+</div>
+
+
+
+
+
+
+    

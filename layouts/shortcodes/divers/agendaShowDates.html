@@ -1,0 +1,73 @@
+<!-- div visible en fonction de dates
+Pour masquer élément si date de péremption dépassée 
+Pour une image du style brico café-->
+{{ $respSizes := slice "320" "640" "960" "1280" "1600" "1920" }}
+{{ $src := .Page.Resources.Get (printf "%s" (.Get "src"))}}
+{{ $alt := .Get "alt" }}
+
+
+{{ $yearStart := .Get "yearStart" }}
+{{ $monthStart := .Get "monthStart" }}
+{{ $dayStart := .Get "dayStart" }}
+{{ $yearEnd := .Get "yearEnd" }}
+{{ $monthEnd := .Get "monthEnd" }}
+{{ $dayEnd := .Get "dayEnd" }}
+
+{{ $dateStarter := printf "-%s" $dayStart | printf "-%s%s" $monthStart | printf " %s%s" $yearStart}}
+{{ $dateEnding := printf "-%s" $dayEnd | printf "-%s%s" $monthEnd | printf " %s%s" $yearEnd}}
+
+
+{{ $divClass := "" }}
+{{ $imgClass := "w-full h-auto " }}
+{{ $dataSzes := "(min-width: 1024px) 100vw, 50vw" }}
+{{ $actualImg := $src.Resize "640x jpg" }}
+
+<picture id="agenda" class="hidden">
+  <source
+    type="image/webp"
+    srcset="
+      {{- with $respSizes -}}
+        {{- range $i, $e := . -}}
+        {{- if ge $src.Width . -}}
+          {{- if $i }}, {{ end -}}{{- ($src.Resize (printf "%sx%s" . " webp") ).RelPermalink }} {{ . }}w
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}"
+    sizes="{{ $dataSzes }}"
+  />
+  <source
+    type="image/jpeg"
+    srcset="
+      {{- with $respSizes -}}
+        {{- range $i, $e := . -}}
+          {{- if ge $src.Width . -}}
+            {{- if $i }}, {{ end -}}{{- ($src.Resize (printf "%sx%s" . " jpg") ).RelPermalink }} {{ . }}w
+          {{- end -}}
+      {{- end -}}
+    {{- end -}}"\
+    sizes="{{ $dataSzes }}"
+  />
+  <img class="{{ $imgClass }}"
+    src="{{ $actualImg.RelPermalink }}"
+    width="{{ $src.Width }}"
+    height="{{ $src.Height }}"
+    alt="{{ $alt }}"
+    loading="lazy"
+  />
+</picture>
+
+
+<script>
+    var now = new Date();
+
+    var dateStart = new Date({{$dateStarter}});
+    
+    
+    var dateEnd = new Date({{$dateEnding}});
+   
+    if (now < dateEnd && now > dateStart) {
+        document.getElementById("agenda").style.display = "block";
+    }
+
+</script>
+

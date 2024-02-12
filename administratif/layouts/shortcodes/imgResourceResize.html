@@ -1,0 +1,55 @@
+{{ $original := (.Page.Resources.ByType "image").GetMatch (printf "*%s" (.Get "src")) }}
+
+<!-- créations des tailles images selon les breakpoints !-->
+
+{{ $tinyBP := "320" }}
+{{ $smallBP := "640" }}
+{{ $mediumBP := "768" }}
+{{ $largeBP := "1024" }}
+{{ $XlargeBP := "1280" }}
+{{ $2XlargeBP := "1536" }}
+{{ $webpBP := "600"}}
+
+
+{{ $tinyx := print $tinyBP "x" }}
+{{ $smallx := print $smallBP "x" }}
+{{ $mediumx := print $mediumBP "x" }}
+{{ $largex := print $largeBP "x" }}
+{{ $Xlargex := print $XlargeBP "x" }}
+{{ $2Xlargex := print $2XlargeBP "x" }}
+{{ $webpx := print $webpBP "x webp"}}
+
+{{ $tinyw := print $tinyBP "w" }}
+{{ $smallw := print $smallBP "w" }}
+{{ $mediumw := print $mediumBP "w" }}
+{{ $largew := print $largeBP "w" }}
+{{ $Xlargew := print $XlargeBP "w" }}
+{{ $2Xlargew := print $2XlargeBP "w" }}
+{{ $webpw := print $webpBP "w webp"}}
+
+
+<!-- redimensionnement des images -->
+
+{{ $tiny := $original.Resize $tinyx }}
+{{ $small := $original.Resize $smallx }}
+{{ $medium := $original.Resize $mediumx }}
+{{ $large := $original.Resize $largex }}
+{{ $Xlarge := $original.Resize $Xlargex }}
+{{ $2Xlarge := $original.Resize $2Xlargex }}
+{{ $webp := $original.Resize $webpx }}
+
+<figure>
+    <picture>
+        <source srcset="{{$webp.Permalink}}" type="image/webp">
+        <source srcset='
+            {{$tiny.Permalink}} {{$tinyw}},
+            {{$small.Permalink}} {{$smallw}},
+            {{$medium.Permalink}} {{$mediumw}},
+            {{$large.Permalink}} {{$largew}},
+            {{$Xlarge.Permalink}} {{$Xlargew}},
+            {{$2Xlarge.Permalink}} {{$2Xlargew}}'
+            sizes="70vw"
+        >
+        <img class="w-full h-full" src="{{ $medium.Permalink}}" alt="{{.Get "alt" }}"  width="{{$medium.Width}}" height="{{$medium.Height}}" loading="lazy">
+    </picture>
+</figure> 

@@ -1,0 +1,8 @@
+<div class="overflow-hidden bg-mycolor-600 border border-mycolor-900 text-mywhite ">
+    <div>
+      <img class="float-left  img-surround img-left" src="{{ .Get "src" }}" alt="{{.Get "alt" }}"  loading="lazy"/>
+    </div>
+    <div class="pt-2 px-2  font-size " >
+        {{ .Inner | markdownify }}
+  </div>
+</div>
