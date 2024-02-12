@@ -9,7 +9,7 @@
 
 
 
-{{ $src := .Page.Resources.Get "imagePage.jpg"}}
+{{ $src := .Page.Resources.Get (printf "%s" (.Get "src"))}}
 
 {{ $alt := .Get "alt" }}
 {{ $divClass := "" }}

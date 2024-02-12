@@ -2,6 +2,11 @@ baseURL = 'https://example.org/'
 languageCode = 'fr-fr'
 title = 'BB82'
 
+[_build]
+  list = 'always'
+  publishResources = true
+  render = 'always'
+
 [markup.goldmark.renderer]
   unsafe = true # Allow HTML in md files
 
