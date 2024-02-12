@@ -237,5 +237,9 @@ Autre image
 
 ## Tester srcset et webp
 
+<div class="w-3/4 mx-auto">
+{{< images/srcsetInAssets src="image.jpg" alt="une séance de repair café" >}}
+</div>
+{{< images/srcsetInPage src="imagePage.jpg" alt="une séance de repair café" >}}
 
 <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23795548&ctz=Europe%2FParis&src=bWNiZXRoODJAZ21haWwuY29t&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZnIuZnJlbmNoI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB&color=%2333B679&color=%230B8043" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>

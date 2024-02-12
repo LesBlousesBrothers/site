@@ -7,9 +7,9 @@
 {{ $respSizes := slice "320" "640" "960" "1280" "1600" "1920" }}
 {{ $imgBase := "images/" }}
 
-{{ $srcget := .Get "src"}}
 
-{{ $src := .Page.Resources.Get (printf "%s" $srcget)}}
+
+{{ $src := .Page.Resources.Get "imagePage.jpg"}}
 
 {{ $alt := .Get "alt" }}
 {{ $divClass := "" }}
