@@ -9,7 +9,7 @@
 
 
 
-{{ $src := .Page.Resources.Get (printf "%s" (.Get "src"))}}
+{{ $src := .Page.Resources.GetMatch (printf "%s" (.Get "src"))}}
 
 {{ $alt := .Get "alt" }}
 {{ $divClass := "" }}
