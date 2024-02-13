@@ -21,7 +21,7 @@ h1 {
   }
   
   h2 {
-    @apply text-2xl font-medium pt-3 pb-1.5;
+    @apply text-2xl font-medium pt-3 pb-1.5 pl-2;
   }
   h3 {
     @apply text-xl font-medium ;

@@ -31,7 +31,9 @@ module.exports = {
       myblack:{
         DEFAULT: '#111827',
       },
-
+        mydark:{
+          DEFAULT: '#4B5563',
+        },
       mygray: { 
         DEFAULT: '#92969D', 
         900: '#1d1e20', 

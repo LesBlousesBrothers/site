@@ -4,12 +4,6 @@ date = 2024-02-07T23:16:48+02:00
 draft = false
 +++
 
-
-
-
-<!-- <h2 class="bg-gray-200 font-bold text-white text-center" >testH2 de _index.md</h2> -->
-<br>
-
 <div class="w-full px-2 md:px-0  mx-auto md:w-full md:grid md:grid-cols-5 font-bold text-center justify-center items-center bg-mycolor-300">
     <div class=" md:col-span-2 ">
         <!-- <img  class="object-cover object-center " src="images/blousesEnTete.jpg" alt="la bannière des blouses brothers"/>  -->
@@ -33,6 +27,15 @@ L’équipe construite autour de Fanette, Arnaud, Mickael et Franck dispose des 
 Elle porte de nombreux projet (atelier mobile équipé pour les chantiers d’étudiant, café rafistole, construction dans l’espace public, construction de four, festival semaine des déchets, recyclage en circuit court des plastics,…) 
 
 </div>
+
+{{< texts/text_left_light >}}
+Face au désarroi, à l’épuisement des ressources et aux conflits qu’ils engendrent, notre association a pour intention de rendre désirable la société de demain.  
+Cette association : Les Blouses Brothers dont le siège est à Saint Antonin Noble Val dans le Tarn et Garonne promeut les low techs, le faire soi-même et la convivialité.  
+Consciente des enjeux sur les ressources, elle souhaite developper et proposer des solutions locales aux enjeux globaux.
+L’équipe construite autour de Fanette, Arnaud, Mickael et Franck dispose des nombreux savoirs techniques, artistiques, managériales et en ingénierie sociale… sait aussi solliciter son réseau pour agréger les compétences autour de projet spécifiques.  
+Elle porte de nombreux projet (atelier mobile équipé pour les chantiers d’étudiant, café rafistole, construction dans l’espace public, construction de four, festival semaine des déchets, recyclage en circuit court des plastics,…) 
+
+{{< /texts/text_left_light >}}
 
 ## Objectifs
 
