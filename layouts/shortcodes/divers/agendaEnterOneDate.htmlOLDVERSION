@@ -5,7 +5,7 @@ Ici on ne rentre que la date de péremption
 On fixe le délai de parution à 30 jours avant la péremption.
 On pourrait créer un .Get pour ajuster le délai à la valeur voulue-->
 {{ $respSizes := slice "320" "640" "960" "1280" "1600" "1920" }}
-{{ $src := .Page.Resources.GetMatch (printf "%s" (.Get "src"))}}
+{{ $src := .Page.Resources.Get (printf "%s" (.Get "src"))}}
 {{ $alt := .Get "alt" }}
 
 

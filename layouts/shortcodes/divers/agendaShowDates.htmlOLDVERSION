@@ -2,7 +2,7 @@
 Pour masquer élément si date de péremption dépassée 
 Pour une image du style brico café-->
 {{ $respSizes := slice "320" "640" "960" "1280" "1600" "1920" }}
-{{ $src := .Page.Resources.GetMatch (printf "%s" (.Get "src"))}}
+{{ $src := .Page.Resources.Get (printf "%s" (.Get "src"))}}
 {{ $alt := .Get "alt" }}
 
 

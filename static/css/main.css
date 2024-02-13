@@ -924,6 +924,10 @@ ul {
   width: 100%;
 }
 
+.w-5\/12 {
+  width: 41.666667%;
+}
+
 .max-w-full {
   max-width: 100%;
 }
