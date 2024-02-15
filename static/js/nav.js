@@ -5,7 +5,7 @@ const triggerMenuClosed = document.getElementById("menuClosed");
 const nav = document.getElementById("nav")
 triggerMenuOpen.addEventListener("click", () => {
     // nav.classList.add("flex")
-    nav.classList.remove("hidden")
+    nav.classList.remove("hidden");
     triggerMenuClosed.style.display ="block";
     triggerMenuOpen.style.display = "none";
 });
