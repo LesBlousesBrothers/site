@@ -1,0 +1,14 @@
+<!--Test de chemin d'images-->
+{{ $image := .Page.Resources.GetMatch (printf "%s" (.Get "src"))}}
+{{ $alt := .Get "alt"}}
+
+{{ $width := $image.Width}}
+{{ $height := $image.Height}}
+{{ $Q := .Get "quality"}}
+
+{{ printf "q %s" $Q | printf "x %d" $height | printf "%d" $width }}
+
+
+
+
+ 

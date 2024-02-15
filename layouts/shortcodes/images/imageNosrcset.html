@@ -1,0 +1,8 @@
+<!--Test de chemin d'images-->
+{{ $image := .Page.Resources.GetMatch (printf "%s" (.Get "src"))}}
+{{ $alt:= .Get "alt"}}
+
+<img src="{{ $image.RelPermalink }}" alt="{{ $alt }}">
+
+
+ 

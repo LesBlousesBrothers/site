@@ -177,3 +177,20 @@ Pour se désaltérer
 {{< images/srcsetInPage src="imagePage.jpg" alt="une séance de repair café" >}}
 
 <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23795548&ctz=Europe%2FParis&src=bWNiZXRoODJAZ21haWwuY29t&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZnIuZnJlbmNoI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB&color=%2333B679&color=%230B8043" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+## Un exemple d'image tramée
+-  Poids initial de la phot0 2048x1536  452ko  
+-  Poids de l'image tramée : 1024 x 768 px 40ko (contre 90,6 ko pour image initiale réduite en 1024x768)  
+-  **Il faut d'abord réduire l'image à la taille 1024, puis la modifier dans GIMP avec filtre -> distorsion -> papier journal**  
+-  Puis exportation à qualité 1/100
+{{< images/imageNosrcset src="imagePageTrameResize2.jpg" alt="image tramée">}}
+
+## Même image exportée en qualité 20/100
+- Réduction de l'image à la bonne taille 1024x...
+- Exportation sous Gimp avec qualité 20/100
+- Poids de l'image 43,7 ko
+
+{{< images/srcsetInPage src="imagePageResizequalityFaible.jpg" alt="une séance de repair café" >}}
+
+## Short code image avec quality depuis Hugo
+{{< images/imageQuality src="imagePageResize.jpg" alt="image resize q 20" quality="20">}}

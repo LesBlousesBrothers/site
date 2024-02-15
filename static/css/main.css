@@ -920,6 +920,10 @@ ul {
   width: 2.25rem;
 }
 
+.w-9\/12 {
+  width: 75%;
+}
+
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;

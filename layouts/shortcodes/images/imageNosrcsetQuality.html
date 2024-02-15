@@ -1,0 +1,14 @@
+<!--Test de chemin d'images-->
+{{ $image := .Page.Resources.GetMatch (printf "%s" (.Get "src"))}}
+{{ $alt := .Get "alt"}}
+
+{{ $width := $image.Width}}
+{{ $height := $image.Height}}
+
+{{ $imgQ := $image.Resize "1024x q20" }}
+
+
+<img src="{{ $imgQ.RelPermalink }}" alt="{{ $alt }}">
+
+
+ 
