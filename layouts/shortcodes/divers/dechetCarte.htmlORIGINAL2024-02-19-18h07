@@ -68,158 +68,45 @@
 <g
    id="layer1"
    transform="translate(-53.710416,-101.86456)">
-
-   <text
-   xml:space="preserve"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-condensed;font-size:2.11667px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Semi-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;display:inline;opacity:0.64;fill:#ff0000;fill-opacity:1;stroke:#000001;stroke-width:0;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.997295;paint-order:markers stroke fill"
-   x="135.65981"
-   y="120.36098"
-   id="Parisot"><tspan
-     id="tspan9"
-     x="135.65981"
-     y="120.36098"
-     style="stroke-width:0">Parisot</tspan></text>
-<text
-   xml:space="preserve"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-condensed;font-size:2.11667px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Semi-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;display:inline;opacity:0.64;fill:#ff0000;fill-opacity:1;stroke:#000001;stroke-width:0;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.997295;paint-order:markers stroke fill"
-   x="96.641861"
-   y="139.41455"
-   id="Septfonds"><tspan
-     id="tspan10"
-     x="96.641861"
-     y="139.41455"
-     style="stroke-width:0">Septfonds</tspan></text>
-<text
-   xml:space="preserve"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-condensed;font-size:2.11667px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Semi-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;display:inline;opacity:0.64;fill:#ff0000;fill-opacity:1;stroke:#000001;stroke-width:0;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.997295;paint-order:markers stroke fill"
-   x="84.583061"
-   y="138.69774"
-   id="Caussade"><tspan
-     id="tspan11"
-     x="84.583061"
-     y="138.69774"
-     style="stroke-width:0">Caussade</tspan></text>
-<text
-   xml:space="preserve"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-condensed;font-size:2.11667px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Semi-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;display:inline;opacity:0.64;fill:#ff0000;fill-opacity:1;stroke:#000001;stroke-width:0;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.997295;paint-order:markers stroke fill"
-   x="83.445862"
-   y="163.90781"
-   id="Negrepelisse"><tspan
-     id="tspan12"
-     x="83.445862"
-     y="163.90781"
-     style="stroke-width:0">Nègrepelisse</tspan></text>
-
-<text
-   xml:space="preserve"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-condensed;font-size:2.11667px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Semi-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;display:inline;opacity:0.64;fill:#000000;fill-opacity:1;stroke:#000001;stroke-width:0;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.997295;paint-order:markers stroke fill"
-   x="84.650719"
-   y="174.05728"
-   id="QuercyVert"><tspan
-     id="tspan8"
-     x="84.650719"
-     y="174.05728"
-     style="stroke-width:0">Quercy Vert Aveyron</tspan></text>
-<text
-   xml:space="preserve"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-condensed;font-size:2.11667px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Semi-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;display:inline;opacity:0.64;fill:#000000;fill-opacity:1;stroke:#000001;stroke-width:0;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.997295;paint-order:markers stroke fill"
-   x="125.07978"
-   y="126.37115"
-   id="QRGA"><tspan
-     id="tspan5"
-     x="125.07978"
-     y="126.37115"
-     style="stroke-width:0">Quercy Rouergue</tspan><tspan
-     id="tspan6"
-     x="125.07978"
-     y="129.01698"
-     style="stroke-width:0">Gorges Aveyron</tspan></text>
-<text
-   xml:space="preserve"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-condensed;font-size:2.11667px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Semi-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;display:inline;opacity:0.64;fill:#000000;fill-opacity:1;stroke:#000001;stroke-width:0;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.997295;paint-order:markers stroke fill"
-   x="79.795181"
-   y="142.78711"
-   id="QuercyCaussade"><tspan
-     id="tspan7"
-     x="79.795181"
-     y="142.78711"
-     style="stroke-width:0">Quercy Caussadais</tspan></text>
-
    <a id="a-Parisot" xlink:href="#" onClick="reply_click(this.id)"> 
-    <g>
-    <circle 
-    style="fill-opacity:0"
-    cx="136.23738"
-   cy="117.45719"
-   r="2.5" />
-
    <circle
    style="display:inline;fill:#ff0000;fill-opacity:1;stroke:#000001;stroke-width:0;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.997295;paint-order:markers stroke fill"
    id="disque-Parisot"
    cx="136.23738"
    cy="117.45719"
    r="1.0583333" />
-  </g>
    </a>
   <a id="a-Negrepelisse" xlink:href="#" onClick="reply_click(this.id)">  
-    <g>
-      <circle 
-    style="fill-opacity:0"
-    cx="82.504852"
-    cy="165.57823"
-   r="2.5" />
    <circle
      style="display:inline;fill:#ff0000;fill-opacity:1;stroke:#000001;stroke-width:0;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.997295;paint-order:markers stroke fill"
      id="disque-Negrepelisse"
      cx="82.504852"
      cy="165.57823"
      r="1.0583333" />
-  </g>
   </a>
  <a id="a-Septfonds" xlink:href="#" onClick="reply_click(this.id)">  
-  <g>
-    <circle 
-    style="fill-opacity:0"
-    cx="93.427567"
-    cy="136.03783"
-   r="2.5" />
   <circle
      style="display:inline;fill:#ff0000;fill-opacity:1;stroke:#000001;stroke-width:0;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.997295;paint-order:markers stroke fill"
      id="disque-Septfonds"
      cx="93.427567"
      cy="136.03783"
      r="1.0583333" />
-  </g>
  </a>
  <a id="a-VertSeptfonds" xlink:href="#" onClick="reply_click(this.id)">  
-  <g>
-    <circle 
-    style="fill-opacity:0"
-    cx="98.769508"
-    cy="135.24304"
-   r="2.5" />
   <circle
      style="display:inline;fill:#00632e;fill-opacity:1;stroke:#000001;stroke-width:0;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.997295;paint-order:markers stroke fill"
      id="disque-VertSeptfonds"
      cx="97.769508"
      cy="135.24304"
      r="1.0583333" />
- </g>
  </a>
  <a id="a-Caussade" xlink:href="#" onClick="reply_click(this.id)">  
-  <g>
-    <circle 
-    style="fill-opacity:0"
-    cx="84.284409"
-    cy="135.4444"
-   r="2.5" />
   <circle
      style="display:inline;fill:#ff0000;fill-opacity:1;stroke:#000001;stroke-width:0;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.997295;paint-order:markers stroke fill"
      id="disque-Caussade"
      cx="84.284409"
      cy="135.4444"
      r="1.0583333" />
-    </g>
  </a>
   <path
      style="display:inline;opacity:0.64;fill:none;stroke:#e5303d;stroke-width:0.499999;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.997295;paint-order:markers stroke fill"
@@ -233,7 +120,81 @@
      style="display:inline;opacity:0.64;fill:none;stroke:#303be5;stroke-width:0.499999;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.997295;paint-order:markers stroke fill"
      d="m 67.433062,151.06501 1.119928,0.90993 1.808864,-1.64784 0.105892,1.41817 0.845407,1.01212 -0.09583,1.61174 1.04925,0.28614 h 1.036897 l 3.3943,-3.42166 1.775608,2.23657 0.613092,0.7188 1.698448,-2.02873 -0.23871,-0.65012 2.845766,-1.64216 -0.227843,-1.43432 1.874853,0.78099 2.824898,0.27463 3.281958,1.99487 1.432298,-0.78973 2.150626,-0.0894 1.340106,1.15717 1.86576,-5.08962 2.47105,-1.21882"
      id="limiteCaussadaisVert" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-condensed;font-size:2.11667px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Semi-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;display:inline;opacity:0.64;fill:#ff0000;fill-opacity:1;stroke:#000001;stroke-width:0;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.997295;paint-order:markers stroke fill"
+     x="135.65981"
+     y="120.36098"
+     id="Parisot"><tspan
+       id="tspan9"
+       x="135.65981"
+       y="120.36098"
+       style="stroke-width:0">Parisot</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-condensed;font-size:2.11667px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Semi-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;display:inline;opacity:0.64;fill:#ff0000;fill-opacity:1;stroke:#000001;stroke-width:0;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.997295;paint-order:markers stroke fill"
+     x="96.641861"
+     y="139.41455"
+     id="Septfonds"><tspan
+       id="tspan10"
+       x="96.641861"
+       y="139.41455"
+       style="stroke-width:0">Septfonds</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-condensed;font-size:2.11667px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Semi-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;display:inline;opacity:0.64;fill:#ff0000;fill-opacity:1;stroke:#000001;stroke-width:0;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.997295;paint-order:markers stroke fill"
+     x="84.583061"
+     y="138.69774"
+     id="Caussade"><tspan
+       id="tspan11"
+       x="84.583061"
+       y="138.69774"
+       style="stroke-width:0">Caussade</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-condensed;font-size:2.11667px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Semi-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;display:inline;opacity:0.64;fill:#ff0000;fill-opacity:1;stroke:#000001;stroke-width:0;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.997295;paint-order:markers stroke fill"
+     x="83.445862"
+     y="163.90781"
+     id="Negrepelisse"><tspan
+       id="tspan12"
+       x="83.445862"
+       y="163.90781"
+       style="stroke-width:0">Nègrepelisse</tspan></text>
 
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-condensed;font-size:2.11667px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Semi-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;display:inline;opacity:0.64;fill:#000000;fill-opacity:1;stroke:#000001;stroke-width:0;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.997295;paint-order:markers stroke fill"
+     x="84.650719"
+     y="174.05728"
+     id="QuercyVert"><tspan
+       id="tspan8"
+       x="84.650719"
+       y="174.05728"
+       style="stroke-width:0">Quercy Vert Aveyron</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-condensed;font-size:2.11667px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Semi-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;display:inline;opacity:0.64;fill:#000000;fill-opacity:1;stroke:#000001;stroke-width:0;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.997295;paint-order:markers stroke fill"
+     x="125.07978"
+     y="126.37115"
+     id="QRGA"><tspan
+       id="tspan5"
+       x="125.07978"
+       y="126.37115"
+       style="stroke-width:0">Quercy Rouergue</tspan><tspan
+       id="tspan6"
+       x="125.07978"
+       y="129.01698"
+       style="stroke-width:0">Gorges Aveyron</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-condensed;font-size:2.11667px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Semi-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;display:inline;opacity:0.64;fill:#000000;fill-opacity:1;stroke:#000001;stroke-width:0;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.997295;paint-order:markers stroke fill"
+     x="79.795181"
+     y="142.78711"
+     id="QuercyCaussade"><tspan
+       id="tspan7"
+       x="79.795181"
+       y="142.78711"
+       style="stroke-width:0">Quercy Caussadais</tspan></text>
 </g>
       </svg>
 
