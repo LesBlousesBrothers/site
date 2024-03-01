@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/legal/</loc>
+    <loc>https://bb82.netlify.app/legal/</loc>
     <lastmod>2024-02-10T14:54:39+01:00</lastmod>
   </url><url>
-    <loc>https://example.org/contact/</loc>
+    <loc>https://bb82.netlify.app/contact/</loc>
     <lastmod>2024-02-10T14:50:07+01:00</lastmod>
   </url><url>
-    <loc>https://example.org/apropos/</loc>
+    <loc>https://bb82.netlify.app/apropos/</loc>
     <lastmod>2024-02-10T14:49:51+01:00</lastmod>
   </url><url>
-    <loc>https://example.org/agenda/</loc>
+    <loc>https://bb82.netlify.app/agenda/</loc>
     <lastmod>2024-02-09T09:14:05+01:00</lastmod>
   </url><url>
-    <loc>https://example.org/</loc>
+    <loc>https://bb82.netlify.app/</loc>
     <lastmod>2024-02-07T23:16:48+02:00</lastmod>
   </url><url>
-    <loc>https://example.org/bricotheque/</loc>
+    <loc>https://bb82.netlify.app/bricotheque/</loc>
     <lastmod>2024-02-06T18:13:42+01:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>https://bb82.netlify.app/categories/</loc>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>https://bb82.netlify.app/tags/</loc>
   </url>
 </urlset>

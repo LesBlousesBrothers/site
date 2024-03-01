@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>BB82</title>
-    <link>https://example.org/</link>
+    <link>https://bb82.netlify.app/</link>
     <description>Recent content on BB82</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Sat, 10 Feb 2024 14:54:39 +0100</lastBuildDate>
-    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bb82.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mentions Légales</title>
-      <link>https://example.org/legal/</link>
+      <link>https://bb82.netlify.app/legal/</link>
       <pubDate>Sat, 10 Feb 2024 14:54:39 +0100</pubDate>
-      <guid>https://example.org/legal/</guid>
+      <guid>https://bb82.netlify.app/legal/</guid>
       <description>Informations Editoriales Editeur Les Blouses Brothers 82 x route de U 82xxx ZZZZZ ### Direction de publication XXXX&#xA;Protection et traitement de données à caractère personnel Respect des lois en vigueur Le site XXXXX respecte la vie privée de l’internaute et se conforme strictement aux lois en vigueur sur la protection de la vie privée et des libertés individuelles. Aucune information personnelle n’est collectée à votre insu. Aucune information personnelle n’est cédée à des tiers.</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>https://example.org/contact/</link>
+      <link>https://bb82.netlify.app/contact/</link>
       <pubDate>Sat, 10 Feb 2024 14:50:07 +0100</pubDate>
-      <guid>https://example.org/contact/</guid>
+      <guid>https://bb82.netlify.app/contact/</guid>
       <description>Nous Contacter </description>
     </item>
     <item>
       <title>À Propos</title>
-      <link>https://example.org/apropos/</link>
+      <link>https://bb82.netlify.app/apropos/</link>
       <pubDate>Sat, 10 Feb 2024 14:49:51 +0100</pubDate>
-      <guid>https://example.org/apropos/</guid>
+      <guid>https://bb82.netlify.app/apropos/</guid>
       <description>Test d&amp;rsquo;image tramée l&amp;rsquo;image est tramée elle est affichée via un src set poids de l&amp;rsquo;image : 257 ko !!! un lien clickable ouvre l&amp;rsquo;image originelle dans une autre fenêtre Click pour ouvrir l&amp;rsquo;image dans une autre page&#xA;Image tramée sans srcset l&amp;rsquo;image est tramée c&amp;rsquo;est la même image que plus haut poids de l&amp;rsquo;image : 71 ko </description>
     </item>
     <item>
       <title>Agenda</title>
-      <link>https://example.org/agenda/</link>
+      <link>https://bb82.netlify.app/agenda/</link>
       <pubDate>Fri, 09 Feb 2024 09:14:05 +0100</pubDate>
-      <guid>https://example.org/agenda/</guid>
+      <guid>https://bb82.netlify.app/agenda/</guid>
       <description> notre agenda </description>
     </item>
     <item>
       <title>Bricotheque</title>
-      <link>https://example.org/bricotheque/</link>
+      <link>https://bb82.netlify.app/bricotheque/</link>
       <pubDate>Tue, 06 Feb 2024 18:13:42 +0100</pubDate>
-      <guid>https://example.org/bricotheque/</guid>
+      <guid>https://bb82.netlify.app/bricotheque/</guid>
       <description>Carte Interactive Cartographie CLIQUER SUR UN CERCLE DE LA CARTE POUR OBTENIR DES INFORMATIONS CLIQUER SUR UN CERCLE DE LA CARTE Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel est felis. Pellentesque eleifend justo ac ligula pharetra sodales. Cras eros nunc, imperdiet et molestie eu, accumsan quis neque. Cras tempus pharetra felis nec mattis. Vivamus congue tristique ipsum, ut dictum lectus malesuada sit amet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</description>
     </item>
   </channel>
