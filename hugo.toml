@@ -12,6 +12,11 @@ title = 'BB82'
 [outputFormats]
   [outputFormats.json]
     mediaType = "application/json"
+  [outputFormats.Agenda]
+    mediaType = "application/json"
+    baseName = "json/agenda" 
+    isPlainText = true
+    
 
 [menu]
   [[menu.main]]
@@ -25,9 +30,9 @@ title = 'BB82'
     url = "/apropos"
     weight = 10
   [[menu.main]]
-    identifier = "bricotheque"
-    name = "Bricothèque"
-    url = "/bricotheque"
+    identifier = "bricotek"
+    name = "Bricotek"
+    url = "/bricotek"
     weight = 20
   [[menu.main]]
     identifier = "agenda"

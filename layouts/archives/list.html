@@ -1,0 +1,25 @@
+
+{{ define "main" }}
+
+  {{ .Content | markdownify }}
+
+  <ul class="list-none px-2 md:px-4 ">
+    {{ range .Pages }}
+    {{ $mymonths := index $.Site.Data.mois }}
+    {{ $mymonth := index $mymonths (printf "%d" .Date.Month)}}
+    {{ $affiche := .Resources.Get .Params.Affiche}}
+    {{ $src := newScratch }}
+    {{ if $affiche }}{{ $src.Set "source" $affiche.RelPermalink }}{{ else }}{{ $src.Set "source" ""}}{{ end}}
+      <li class="pb-2 md:pb-16">
+        
+        <a class="grid grid-cols-5 md:grid-cols-10"  href="{{.RelPermalink}}">
+          <div class="col-span-2">{{ $mymonth }} {{ .Date.Year }}</div>
+          <div class="mx-auto items-center"><img class="h-12 items-center" src="{{ $src.Get "source"}}" alt=" {{.Params.Affiche_alt}}"></div>
+          <div class="col-span-2 md:col-span-6 pl-1 md:pl-4">{{ .Params.Location }}</div>
+        </a>
+      </li>
+    {{ end }}
+  </ul>
+
+
+{{ end }}

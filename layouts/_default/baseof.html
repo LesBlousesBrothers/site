@@ -5,12 +5,18 @@
     {{ partial "head/head.html" .}}
   {{ end }}
 
-  <body class="bg-mywhite container mx-auto">
-    <div class="bg-mycolor-100">
+  <body >
+    <div class="bg-mywhite">
 
   {{ partial "nav/nav.html" . }}
+  {{ partial "nav/navBottom.html" .}}
 
+  <div class="py-0 md:py-1">
 
+    <div></div>
+    <div></div>
+
+</div>
 
   {{ block "header" .}}
     {{ partial "header/header.html" .}}
@@ -23,7 +29,7 @@
 
     {{ end }}
   </div>
-   
+
   {{ block "footer" .}}
     {{ partial "footer/footer.html" .}}
   {{ end }}

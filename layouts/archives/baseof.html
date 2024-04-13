@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{.Site.LanguageCode}}">
+
+  {{ block "head" .}}
+    {{ partial "head/head.html" .}}
+  {{ end }}
+
+  <body >
+    <div class="bg-mywhite">
+
+      {{ partial "nav/nav.html" . }}
+      {{ partial "nav/navBottom.html" .}}
+
+      <div class="py-0 md:py-1">
+
+        <div></div>
+        <div></div>
+
+      </div>
+
+      {{ block "main" . }}
+
+      {{ end }}
+    </div>
+    <div class="md:hidden h-10">
+
+    </div>
+  {{ block "footer" .}}
+    {{ partial "footer/footer.html" .}}
+  {{ end }}
+
+  <!-- Script pour le menu -->
+
+  <!-- <script  language="javascript" type="text/javascript"  src="{{ "/js/nav.js" }}"></script> -->
+
+  </body>
+</html>

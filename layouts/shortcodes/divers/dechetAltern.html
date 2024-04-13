@@ -1,0 +1,61 @@
+<!-- phone number : instanciation variable et formattage -->
+{{ $phone := .Get "phone" }}
+{{ $split := split $phone ""}}
+{{ $split0 := index $split 0 }}
+{{ $split1 := index $split 1 }}
+{{ $split2 := index $split 2 }}
+{{ $split3 := index $split 3 }}
+{{ $split4 := index $split 4 }}
+{{ $split5 := index $split 5 }}
+{{ $split6 := index $split 6 }}
+{{ $split7 := index $split 7 }}
+{{ $split8 := index $split 8 }}
+{{ $split9 := index $split 9 }}
+
+{{ $dash := printf "%s" $split9 | printf "%s%s" $split8 | printf "%s%s" "-" | printf "%s%s" $split7 | printf "%s%s" $split6 | printf "%s%s" "-" | printf "%s%s" $split5 | printf "%s%s" $split4 | printf "%s%s" "-" | printf "%s%s" $split3 | printf "%s%s" $split2 | printf "%s%s" "-" | printf "%s%s" $split1 | printf "%s%s" $split0 | printf "%s" }}
+
+<!-- site web ; condition selon que le nom du site commence par www. ou non-->
+{{ $web := .Get "web"}}
+{{ $webSplit := split $web "/" }}
+{{ $webSite := index $webSplit 2 }}
+{{ $webName := newScratch }}
+
+{{ if hasPrefix $webSite "www." }} {{ $webName.Set "" (substr $webSite 4) }} {{ else }} {{ $webName.Set "" $webSite }} {{ end }}
+
+<!-- adresse -->
+{{ $adresse := .Get "adresse"}}
+{{ $googleMap := .Get "googleMap"}}
+
+<!-- horaires -->
+
+
+<div class="w-full">
+    <div class="grid grid-cols-3 ">
+
+        <div class="text-mycolor-800 text-center text-sm md:text-base font-bold">
+            <p class="pt-2">La déchetterie de</p>
+            <p class="uppercase">{{ .Get "name" }}</p>
+        </div>
+
+        <div class="col-span-2  pl-2 md:pl-4 py-2 bg-mycolor-100">
+            <a href= {{ $phone }}>
+                <img class="w-4 inline-block align-middle"  src="/svg/phone.svg">
+                <span class="text-xs md:text-sm lg:text-base inline-block align-middle pl-2 md:pl-4" >{{ $dash }}</span>
+            </a>
+            <br>
+            <a href= {{ $web }}>
+                <img class="w-4 inline-block align-middle"  src="/svg/web.svg">
+                <span class="text-xs md:text-sm lg:text-base  inline-block align-middle pl-2 md:pl-4" >{{ $webName.Get "" }}</span>
+            </a>
+            <br>
+            <a href= {{ $googleMap }}>
+                <img class="w-4 inline-block align-middle"  src="/svg/adresse.svg">
+                <span class="text-xs md:text-sm lg:text-base  inline-block align-middle pl-2 md:pl-4" >{{ $adresse }}</span>
+            </a>
+            <div class="text-xs md:text-sm lg:text-base ">
+                {{ with .Get "horaires"}}{{ . | safeHTML }}{{ end }}
+            </div>
+        </div>
+
+    </div>  
+</div>

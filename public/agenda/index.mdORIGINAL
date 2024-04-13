@@ -1,0 +1,70 @@
++++
+title = "Agenda"
+date = 2024-02-09T09:14:05+01:00
+draft = false
++++
+
+
+
+
+<br>
+<div class=" flex space-x-0">
+  <button class="bg-mycolor-300 hover:bg-mycolor-600 text-mycolor-600 hover:text-mycolor-100 font-bold py-2  rounded-t-2xl w-28 md:w-56 border border-t-mycolor-700 border-l-mycolor-700 border-r-mycolor-700">
+  Evénements
+  </button>
+  <button class="bg-mycolor-300 hover:bg-mycolor-600 text-mycolor-600 hover:text-mycolor-100 font-bold py-2  rounded-t-2xl w-28 md:w-56 border border-t-mycolor-700 border-l-mycolor-700 border-r-mycolor-700" onclick="showAgenda()">
+    Agenda
+  </button>
+</div>
+
+
+<div id="agendaGoogle" class="bg-mycolor-600 hidden"> 
+
+## notre agenda
+
+<iframe class="mx-auto w-9/12 h-screen p-2 md:p-4 border-4 border-mycolor-800" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Europe%2FParis&mode=WEEK&src=bWNiZXRoODJAZ21haWwuY29t&color=%237986CB"   frameborder="0" scrolling="no"></iframe>
+</div>
+
+<!-- {{< typo/spaceLine>}} -->
+
+<!-- {{< divers/agendaShowDates src="cafeBrico.jpg" alt="le prochain café bricole" >}} -->
+<!-- <div class="w-5/12 mx-auto">
+<!-- {{< divers/agendaShowDates src="cafeBrico.jpg" alt="le prochain café bricole" yearStart="2024" monthStart="01" dayStart="20" yearEnd="2024" monthEnd="04" dayEnd="08">}} -->
+<!-- </div> --> 
+<!-- ![texte alternatif](cafeBrico.jpg) -->
+
+<!-- {{< typo/spaceLine >}} -->
+<!-- <div class="w-5/12 mx-auto"> -->
+<!-- {{< divers/agendaEnterOneDate src="cafeBrico.jpg" alt="le prochain café bricole" year="2024" month="03" day="6" >}} -->
+
+
+<!-- </div> -->
+
+<div id="agenda" class=" bg-mycolor-600 mb-64"></div>
+
+
+   <button onclick="myFunction()">Click me!</button>
+    <p id="demo" class="mb-96">coucou</p>
+    <script>
+      function myFunction() {
+        document.getElementById("demo").innerHTML = "Hello Dear Visitor!</br> We are happy that you've chosen our website to learn programming languages. We're sure you'll become one of the best programmers in your country. Good luck to you!";
+      }
+    </script>
+
+<!-- <script>
+  function showAgenda() {
+    let agendaGoogle = document.getElementById("agendaGoogle");
+    let agenda = document.getElementById("agenda");
+    agendaGoogle.display = "block";
+    agenda.display = "none";
+
+  }
+</script> -->
+
+
+<script src="/js/agenda.js"></script>
+<script src="/js/showAgenda.js"></script>
+<!-- <script src="/js/showEvents.js"></script> -->
+
+
+

@@ -1,0 +1,50 @@
+{{ define "main" }}
+
+
+  {{ $mymonths := index $.Site.Data.mois }}
+  {{ $mymonth := index $mymonths (printf "%d" .Date.Month)}}
+  {{ $article := newScratch }}
+  {{ if (hasPrefix $mymonth "a") }}
+      {{ $article.Set "article" "d'" }}
+      {{else if (hasPrefix $mymonth "o")}}
+          {{ $article.Set "article" "d'"}}
+      {{ else }}
+          {{ $article.Set "article" "de"}}
+  {{ end }}
+
+  {{ $affiche := .Resources.Get .Params.Affiche}}
+  
+  <div class="text-center pb-8">
+    <h1 class="pb-4">Café Bricole {{ $article.Get "article"}} {{ $mymonth }} {{ .Date.Year }}</h1>
+    {{ if .Params.Location}}<p class="">{{ .Params.Location }}{{end}}</p>
+    <p>{{ if .Date }}{{ .Date.Day }} {{ $mymonth }} {{ .Date.Year }}{{ end }}</p>
+  </div>
+
+  <div class="px-2 md:px-4">
+    <article id="content">
+      {{ .Content }}
+    </article>
+  </div>
+
+  {{ $folder := path.Dir .Page.File.Path }}
+  {{ $folderImages := path.Join $folder "images" }}
+  {{ $folderContent := path.Join "content" $folderImages}}
+  {{ $files := readDir $folderContent }}
+
+  <div class="hidden md:block md:px-4 md:pt-2">
+    <h2>Quelques Photos</h2>
+  </div>
+  <div class="block p-2 md:pb-8 md:px-4 md:grid md:gap-2 md:grid-cols-3 xl:grid-cols-4 gap-2">
+   
+    {{ range $files}}
+      {{$name:= .Name | relURL }}
+      {{ $src := path.Join $folderImages $name}}
+      <div>
+        <a href="/{{$src}}">
+          <img class="border-4 border-mycolor-300" src="/{{$src}}" alt="une image d'un café rafistole des blouses brothers">
+        </a>
+      </div>
+    {{end }}
+  </div>
+
+{{ end }}
