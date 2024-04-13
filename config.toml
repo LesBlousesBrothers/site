@@ -2,11 +2,6 @@ baseURL = 'https://bb82.netlify.app/'
 languageCode = 'fr-fr'
 title = 'BB82'
 
-[_build]
-  list = 'always'
-  publishResources = true
-  render = 'always'
-
 [markup.goldmark.renderer]
   unsafe = true # Allow HTML in md files
 
@@ -17,6 +12,11 @@ title = 'BB82'
 [outputFormats]
   [outputFormats.json]
     mediaType = "application/json"
+  [outputFormats.Agenda]
+    mediaType = "application/json"
+    baseName = "json/agenda" 
+    isPlainText = true
+    
 
 [menu]
   [[menu.main]]
