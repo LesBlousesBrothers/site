@@ -7,7 +7,7 @@ draft = false
  <div class="container">
   <h1 style="  text-align: center;
   margin: 35px 0 20px 0 !important;">Formulaire de Contact</h1>
-  <form target="_blank" action="https://formsubmit.co/15f5876b08f36f87e300ef84b666538d" method="POST">
+  <form target="_blank" action="https://formsubmit.co/mcbeth82@gmail.com" method="POST">
     <div class="form-group">
       <div class="form-row">
         <div class="col">
@@ -24,4 +24,3 @@ draft = false
     <button type="submit" class="btn btn-lg btn-dark btn-block">Envoi</button>
   </form>
 </div>
-<input type="hidden" name="_next" value="http://127.0.0.1:1313/thanks.html">
