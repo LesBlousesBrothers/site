@@ -7,7 +7,8 @@
     {{ range .Pages }}
     {{ $mymonths := index $.Site.Data.mois }}
     {{ $mymonth := index $mymonths (printf "%d" .Date.Month)}}
-    {{ $affiche := .Resources.Get .Params.Affiche}}
+    <!-- {{ $affiche := .Resources.Get .Params.Affiche}} -->
+    {{ $affiche := .Resources.Get "affiche.jpg"}}
     {{ $src := newScratch }}
     {{ if $affiche }}{{ $src.Set "source" $affiche.RelPermalink }}{{ else }}{{ $src.Set "source" ""}}{{ end}}
       <li class="pb-2 md:pb-16">
