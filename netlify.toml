@@ -3,5 +3,5 @@ publish = "public"
 command = "npm run dev"
 
 [context.deploy-preview.environment]
-  HUGO_VERSION = "0.122.0"
+  HUGO_VERSION = "0.124.1"
 
