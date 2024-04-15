@@ -2149,6 +2149,10 @@ ul {
   padding-left: 8rem;
 }
 
+.pl-0 {
+  padding-left: 0px;
+}
+
 .text-left {
   text-align: left;
 }
@@ -2231,6 +2235,10 @@ ul {
   font-weight: 600;
 }
 
+.font-light {
+  font-weight: 300;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -2241,6 +2249,10 @@ ul {
 
 .italic {
   font-style: italic;
+}
+
+.not-italic {
+  font-style: normal;
 }
 
 .leading-normal {
@@ -2718,6 +2730,10 @@ ul {
 
   .md\:pt-8 {
     padding-top: 2rem;
+  }
+
+  .md\:pl-0 {
+    padding-left: 0px;
   }
 
   .md\:text-2xl {

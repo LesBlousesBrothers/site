@@ -36,8 +36,10 @@ draft = false
 {{< typo/spaceLine >}}
 
 ## Formulaire de contact
+<div class="pl-2 md:pl-0">
 <p class="italic font-semibold">Vous pouvez nous adresser un courriel directement<br>
-Ou bien utiliser le formulaire de contact ci-dessous</p>
+Ou bien utiliser le formulaire de contact ci-dessous<span class="font-light not-italic "> (utilisation grâcieuse de <a class="italic" href="https://formspree.io">FormsPree</a>)</span></p>
+</div>
 
 <!-- essai tailwind form component -->
 <div class="w-full max-w-xs">
