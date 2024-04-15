@@ -2,7 +2,7 @@
 <html lang="fr-fr">
 
   
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <head>
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -167,7 +167,7 @@
   
     
 
-<h1 class="uppercase text-center pt-8 pb-10 lg:pt-20 lg:pb-24 bg-mycolor-200">Contact</h1>
+<h1 class="uppercase text-center pt-8 pb-10 lg:pt-20 lg:pb-24 bg-mycolor-200">Bricole 2023</h1>
 
   
 
@@ -176,56 +176,64 @@
        
     
 
-  <h2 id="nos-coordonnées">Nos Coordonnées</h2>
-<br>
-<div class="pl-4 text-lg">
-<img class="w-8 inline  align-middle pb-4 "  src="/svg/phone.svg">
-<span class="pl-32">06-06-06-06-06</span>
+  <div class="w-1/6 mx-auto">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<picture>
+  <source
+    type="image/webp"
+    srcset="/archives/bricole-2023-04/affiche_hufd782258e158a79987d421018ef7a955_65909_320x0_resize_q75_h2_box.webp 320w"
+    sizes="(min-width: 1024px) 100vw, 50vw"
+  />
+  <source
+    type="image/jpeg"
+    srcset="/archives/bricole-2023-04/affiche_hufd782258e158a79987d421018ef7a955_65909_320x0_resize_q75_box.jpg 320w"\
+    sizes="(min-width: 1024px) 100vw, 50vw"
+  />
+  <img class="w-full h-auto "
+    src="/archives/bricole-2023-04/affiche_hufd782258e158a79987d421018ef7a955_65909_640x0_resize_q75_box.jpg"
+    width="526"
+    height="1140"
+    alt=""
+    loading="lazy"
+  />
+</picture>
+
 </div>
-<div class="pl-4 text-lg">
-<img class="w-8 inline  align-middle pb-4 "  src="/svg/mail.svg">
-<span class="pl-32">ccc@zzz.yy</span>
+<h2 id="commentaires">Commentaires</h2>
+<p>Petit retour en images du café rafistole de samedi à la <em><a href="https://www.facebook.com/Stantobelier/?locale=fr_FR">Brasserie Bélier</a></em> qui nous a chaleureusement accueilli.<br>
+Encore une très très grosse soirée !<br>
+Beaucoup de réparations, très bonne ambiance et Gilbert nous a régalé avec son curry de légumes 😋<br>
+Un grand merci à lui !<br>
+Du bricolage, de la bonne humeur, de la générosité, du partage&hellip;<br>
+C&rsquo;est ça les cafés rafistole !<br>
+Le prochain aura lieu en mai. Plus d&rsquo;infos très prochainement</p>
+<h2 id="une-petite-vidéo">Une petite vidéo</h2>
+<p>Le dernier café rafistole a été l&rsquo;occasion également de tester une petite soudeuse par point portative et de réparer une batterie d&rsquo;aspirateur Dyson.<br>
+Bon, il nous faut encore la prendre en main 😅,  mais ça va être top pour réparer les batteries 🔋👍<br>
+Une petite vidéo pour la montrer en action 🤪</p>
+<div class="w-3/5 mx-auto pt-2 md:pt-8">
+<video controls preload="auto" width="100%"  playsinline class="html-video">
+    <source src="/archives/bricole-2023-04/soudeuse.mp4" type="video/mp4">
+  <span></span>
+</video>
 </div>
-<div class="pl-4 text-lg">
-<img class="w-8 inline  align-middle pb-4 "  src="/svg/adresse.svg">
-<span class="pl-32">chemin de YY 82 ZZZ</span>
-</div>
-
-<div class="grid grid-cols-1 md:divide-y divide-red-400 py-4">
-
-    <div></div>
-    <div></div>
-
-</div>
-
-
-    
-
-<h2 id="formulaire-de-contact">Formulaire de contact</h2>
-<!-- essai tailwind form component -->
-<div class="w-full max-w-xs">
-  <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4"   action="https://formspree.io/f/xdoqprgv"
-  method="POST">
-    <div class="mb-4">
-      <label class="block text-gray-700 text-sm font-bold mb-2" >
-        Votre mail
-      </label>
-      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="email" name="email">
-    </div>
-    <div class="mb-6">
-      <label class="block text-gray-700 text-sm font-bold mb-2" >
-       Votre message
-      </label>
-      <textarea class="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" name="Votre message"></textarea>
-    </div>
-    <div class="flex items-center justify-between">
-      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
-        Envoi
-      </button>
-    </div>
-  </form>
-</div>
-
 
 
   </div>
@@ -314,7 +322,7 @@
 
   
 
-  
+  <!-- Script pour le menu -->
 
   <script  language="javascript" type="text/javascript"  src="/js/nav.js"></script>
 

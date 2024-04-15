@@ -2,7 +2,7 @@
 <html lang="fr-fr">
 
   
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <head>
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -167,7 +167,7 @@
   
     
 
-<h1 class="uppercase text-center pt-8 pb-10 lg:pt-20 lg:pb-24 bg-mycolor-200">Contact</h1>
+<h1 class="uppercase text-center pt-8 pb-10 lg:pt-20 lg:pb-24 bg-mycolor-200">Agenda</h1>
 
   
 
@@ -176,55 +176,50 @@
        
     
 
-  <h2 id="nos-coordonnées">Nos Coordonnées</h2>
+  <br>
+<div class="text-center border-4 border-red-400 uppercase py-4 font-bold">
+    Prenez connaissance des futurs événements<br>
+    Consultez notre agenda
+</div>
 <br>
-<div class="pl-4 text-lg">
-<img class="w-8 inline  align-middle pb-4 "  src="/svg/phone.svg">
-<span class="pl-32">06-06-06-06-06</span>
-</div>
-<div class="pl-4 text-lg">
-<img class="w-8 inline  align-middle pb-4 "  src="/svg/mail.svg">
-<span class="pl-32">ccc@zzz.yy</span>
-</div>
-<div class="pl-4 text-lg">
-<img class="w-8 inline  align-middle pb-4 "  src="/svg/adresse.svg">
-<span class="pl-32">chemin de YY 82 ZZZ</span>
-</div>
-
-<div class="grid grid-cols-1 md:divide-y divide-red-400 py-4">
-
-    <div></div>
-    <div></div>
-
+<div class=" flex space-x-0">
+  <button class="bg-mycolor-300 hover:bg-mycolor-600 text-mycolor-600 hover:text-mycolor-100 font-bold py-2  rounded-t-2xl w-28 md:w-56 border border-mycolor-600 " onclick="showEvents()">
+  Evénements
+  </button>
+  <button class="bg-mycolor-300 hover:bg-mycolor-600 text-mycolor-600 hover:text-mycolor-100 font-bold py-2  rounded-t-2xl w-28 md:w-56 border border-mycolor-600" onclick="showAgenda()">
+    Agenda
+  </button>
 </div>
 
 
-    
+<div id="agendaGoogle" class="bg-mycolor-600 text-center text-mycolor-0 hidden"> 
 
-<h2 id="formulaire-de-contact">Formulaire de contact</h2>
-<!-- essai tailwind form component -->
-<div class="w-full max-w-xs">
-  <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4"   action="https://formspree.io/f/xdoqprgv"
-  method="POST">
-    <div class="mb-4">
-      <label class="block text-gray-700 text-sm font-bold mb-2" >
-        Votre mail
-      </label>
-      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="email" name="email">
-    </div>
-    <div class="mb-6">
-      <label class="block text-gray-700 text-sm font-bold mb-2" >
-       Votre message
-      </label>
-      <textarea class="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" name="Votre message"></textarea>
-    </div>
-    <div class="flex items-center justify-between">
-      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
-        Envoi
-      </button>
-    </div>
-  </form>
+<h2 class="text-mycolor-0">NOTRE AGENDA</h2>
+
+<iframe class="mx-auto w-9/12 h-screen p-2 md:p-4 border-4 border-mycolor-800" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Europe%2FParis&mode=WEEK&src=bWNiZXRoODJAZ21haWwuY29t&color=%237986CB"   frameborder="0" scrolling="no"></iframe>
 </div>
+
+
+
+<div id="agenda" class=" bg-mycolor-600 "></div>
+
+<script src="/js/agenda.js"></script>
+
+<script>
+    function showAgenda() {
+      let agendaGoogle = document.getElementById("agendaGoogle");
+      let agenda = document.getElementById("agenda");
+      agendaGoogle.style.display = "block";
+      agenda.style.display = "none";
+    }
+
+    function showEvents() {
+    let agendaGoogle = document.getElementById("agendaGoogle");
+      let agenda = document.getElementById("agenda");
+      agendaGoogle.style.display = "none";
+      agenda.style.display = "block";
+    }
+  </script>
 
 
 
@@ -314,7 +309,7 @@
 
   
 
-  
+  <!-- Script pour le menu -->
 
   <script  language="javascript" type="text/javascript"  src="/js/nav.js"></script>
 

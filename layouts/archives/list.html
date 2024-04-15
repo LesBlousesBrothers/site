@@ -2,13 +2,15 @@
 {{ define "main" }}
 
   {{ .Content | markdownify }}
+  <h1 class="text-center md:pb-4 md:border-b-2 border-red-400">Nos Archives</h1>
+  <br>
 
   <ul class="list-none px-2 md:px-4 ">
     {{ range .Pages }}
     {{ $mymonths := index $.Site.Data.mois }}
     {{ $mymonth := index $mymonths (printf "%d" .Date.Month)}}
 
-    {{ $affiche := .Resources.GetMatch "affiche.jpg"}}
+    {{ $affiche := .Resources.GetMatch .Params.Affiche}}
     {{ $src := newScratch }}
     {{ if $affiche }}{{ $src.Set "source" $affiche.RelPermalink }}{{ else }}{{ $src.Set "source" ""}}{{ end}}
       <li class="pb-2 md:pb-16">

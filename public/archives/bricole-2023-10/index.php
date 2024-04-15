@@ -2,7 +2,7 @@
 <html lang="fr-fr">
 
   
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <head>
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -167,7 +167,7 @@
   
     
 
-<h1 class="uppercase text-center pt-8 pb-10 lg:pt-20 lg:pb-24 bg-mycolor-200">Contact</h1>
+<h1 class="uppercase text-center pt-8 pb-10 lg:pt-20 lg:pb-24 bg-mycolor-200">Bricole 2023 10</h1>
 
   
 
@@ -176,55 +176,60 @@
        
     
 
-  <h2 id="nos-coordonnées">Nos Coordonnées</h2>
-<br>
-<div class="pl-4 text-lg">
-<img class="w-8 inline  align-middle pb-4 "  src="/svg/phone.svg">
-<span class="pl-32">06-06-06-06-06</span>
+  <div class="w-1/6 mx-auto">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<picture>
+  <source
+    type="image/webp"
+    srcset="/archives/bricole-2023-10/affiche_hu80ae0de36de929e0c041a37b5491149e_93273_320x0_resize_q75_h2_box.webp 320w"
+    sizes="(min-width: 1024px) 100vw, 50vw"
+  />
+  <source
+    type="image/jpeg"
+    srcset="/archives/bricole-2023-10/affiche_hu80ae0de36de929e0c041a37b5491149e_93273_320x0_resize_q75_box.jpg 320w"\
+    sizes="(min-width: 1024px) 100vw, 50vw"
+  />
+  <img class="w-full h-auto "
+    src="/archives/bricole-2023-10/affiche_hu80ae0de36de929e0c041a37b5491149e_93273_640x0_resize_q75_box.jpg"
+    width="526"
+    height="789"
+    alt=""
+    loading="lazy"
+  />
+</picture>
+
 </div>
-<div class="pl-4 text-lg">
-<img class="w-8 inline  align-middle pb-4 "  src="/svg/mail.svg">
-<span class="pl-32">ccc@zzz.yy</span>
-</div>
-<div class="pl-4 text-lg">
-<img class="w-8 inline  align-middle pb-4 "  src="/svg/adresse.svg">
-<span class="pl-32">chemin de YY 82 ZZZ</span>
-</div>
-
-<div class="grid grid-cols-1 md:divide-y divide-red-400 py-4">
-
-    <div></div>
-    <div></div>
-
-</div>
-
-
-    
-
-<h2 id="formulaire-de-contact">Formulaire de contact</h2>
-<!-- essai tailwind form component -->
-<div class="w-full max-w-xs">
-  <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4"   action="https://formspree.io/f/xdoqprgv"
-  method="POST">
-    <div class="mb-4">
-      <label class="block text-gray-700 text-sm font-bold mb-2" >
-        Votre mail
-      </label>
-      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="email" name="email">
-    </div>
-    <div class="mb-6">
-      <label class="block text-gray-700 text-sm font-bold mb-2" >
-       Votre message
-      </label>
-      <textarea class="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" name="Votre message"></textarea>
-    </div>
-    <div class="flex items-center justify-between">
-      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
-        Envoi
-      </button>
-    </div>
-  </form>
-</div>
+<h2 id="au-menu">Au Menu</h2>
+<p>Quelques réparations lors du café rafistole au <em><a href="https://caussade.veocinemas.fr/">Cinéma-Théâtre de Caussade</a></em> samedi dernier<br>
+Un grille-pain réparé<br>
+Une lampe<br>
+Panne identifiée sur une ponceuse à bande (il faut changer les charbons)<br>
+Ordinateur de vélo électrique<br>
+Une batterie de perceuse parkside<br>
+Désossage de batteries pour le projet brikotek</p>
+<h2 id="commentaires">Commentaires</h2>
+<p>Pas loin de 35 personnes ont assisté à la projection du <em><a href="https://lowtech-lefilm.com/">film Low Tech</a></em> puis au débat.<br>
+Des échanges très riches, l&rsquo;occasion de découvrir des initiatives locales (<em><a href="https://www.mairie-penne-tarn.fr/a335-demarrage-du-repare-cafe-de-penne.html">repair café de Penne</a></em>, le <em><a href="https://www.facebook.com/fablabart2faire/">fablab de Montpezat</a></em>).<br>
+Bref, merci à tous les participants, merci à Enzo pour l&rsquo;accueil.<br>
+Le prochain café rafistole devrait avoir lieu le 25 novembre à la <em><a href="https://www.facebook.com/p/AbracadaBrasserie-100057256938476/">brasserie Abracada&rsquo;Brasserie</a></em><br>
+On vous en dit plus rapidement sur notre page.</p>
 
 
 
@@ -314,7 +319,7 @@
 
   
 
-  
+  <!-- Script pour le menu -->
 
   <script  language="javascript" type="text/javascript"  src="/js/nav.js"></script>
 

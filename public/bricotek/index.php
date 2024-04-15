@@ -2,7 +2,7 @@
 <html lang="fr-fr">
 
   
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <head>
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -167,7 +167,7 @@
   
     
 
-<h1 class="uppercase text-center pt-8 pb-10 lg:pt-20 lg:pb-24 bg-mycolor-200">Contact</h1>
+<h1 class="uppercase text-center pt-8 pb-10 lg:pt-20 lg:pb-24 bg-mycolor-200">Bricotheque</h1>
 
   
 
@@ -176,20 +176,652 @@
        
     
 
-  <h2 id="nos-coordonnées">Nos Coordonnées</h2>
-<br>
-<div class="pl-4 text-lg">
-<img class="w-8 inline  align-middle pb-4 "  src="/svg/phone.svg">
-<span class="pl-32">06-06-06-06-06</span>
+  
+<div class="grid grid-cols-1 md:divide-y divide-red-400 py-4">
+
+    <div></div>
+    <div></div>
+
 </div>
-<div class="pl-4 text-lg">
-<img class="w-8 inline  align-middle pb-4 "  src="/svg/mail.svg">
-<span class="pl-32">ccc@zzz.yy</span>
+
+
+    
+
+
+
+<div class="mx-auto display-4 text-center text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl">
+    
+         <h2 id="présentation">Présentation</h2>
+ 
+    
 </div>
-<div class="pl-4 text-lg">
-<img class="w-8 inline  align-middle pb-4 "  src="/svg/adresse.svg">
-<span class="pl-32">chemin de YY 82 ZZZ</span>
+
+
+
+<div class="p-2 md:px-12 bg-mywhite text-left text-mycolor-900">
+    
+         <p>Le projet de Bricothèque est une expérimentation qui se déroulera sur une année et sera découpée en 3 phases.</p>
+<p><strong>Une première phase de collecte de matériel</strong> en déchetterie de Janvier à Avril :</p>
+<ul>
+<li>Perceuse</li>
+<li>Meuleuse</li>
+<li>Perforateur</li>
+<li>Scie sauteuse</li>
+<li>Scie circulaire</li>
+<li>Scie sabre</li>
+<li>Ponceuse</li>
+<li>Batterie électro portatif, batterie vélo, 18650</li>
+</ul>
+<p><strong>Une seconde phase de réparation du matériel collecté</strong> à travers l’organisation de café rafistole auprès du grand public suivi d’une mise à disposition de l’outillage dans des points relais partenaires.</p>
+<p><strong>Enfin, la troisième phase</strong> sera une phase de conception et d’expérimentation de “casiers connectés” permettant l’emprunt et le retour automatique du matériel.</p>
+<p>Un rapport sur le nombre d’outillages réparés et empruntés, d’ateliers de réparations organisés ainsi que le nombre de participants sera rédigé par l’association Les Blouses Brothers et mis à disposition du SDD82.</p>
+ 
+    
 </div>
+
+<p>
+<div class="grid grid-cols-1 md:divide-y divide-red-400 py-4">
+
+    <div></div>
+    <div></div>
+
+</div>
+
+
+    
+
+
+
+<div class="mx-auto display-4 text-center text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl">
+    
+         <h2 id="carte-interactive">Carte Interactive</h2>
+ 
+    
+</div>
+
+
+<div class="py-0 md:py-1.5" >
+</div>
+
+
+    
+
+
+<div class="py-0 md:py-1.5" >
+</div>
+
+
+    
+
+<div class="w-full">
+  <div class="md:grid  md:grid-cols-3 lg:grid-cols-2 bg-mycolor-0 ">
+    <div class="md:grid-col-span-1 "> 
+      <div id="map-General" class="block ">
+        
+        <div class="border border-mycolor-800 ">
+          <div class="bg-mycolor-500  border-b border-mycolor-800  p-4 mx-auto text-center text-mycolor-0 font-semibold">
+            <span class="hidden lg:block">CLIQUER SUR UN CERCLE DE LA CARTE POUR OBTENIR DES INFORMATIONS</span>
+            <span class="block lg:hidden">CLIQUER SUR UN CERCLE DE LA CARTE</span>
+          </div>
+          <div class="text-sm text-mycolor-500 md:text-lg italic p-2">
+            Pour visualiser les informations de chaque déchetterie (adresse, téléphone, site internet, moyen d'accès), cliquer sur l'emplacement marqué par un cercle.<br>
+            Vous pourrez ainsi :<br>
+            &emsp; - Téléphoner directement à la déchetterie<br>
+            &emsp; - Accéder au site internet<br>
+            &emsp; - Trouver l'itinéraire pour vous y rendre
+            <p class="hidden lg:block">&emsp; - Prendre connaissance des horaires</p>
+          </div>
+        </div>
+      </div>
+      
+      <div id="map-Septfonds" class="hidden">
+        <div class="mx-auto text-center text-mycolor-700">
+          <h2 class=" font-bold text-lg text-mycolor-700">Déchetterie de Septfonds</h2>   
+          <p class="hidden md:block"> &nbsp;</p>
+          <a href="tel:0659096693 ">
+            <img class="w-8 mx-auto" src="/svg/phone.svg">
+            <p>06 59 09 66 93</p>
+          </a>
+          <p class="hidden md:block"> &nbsp;</p>
+          <a href="http://www.septfonds.fr/fr/infos-pratiques/dechetterie.html ">
+            <img class="w-8 mx-auto" src="/svg/web.svg">
+            <p>septfonds.fr</p>
+          </a>
+          <p class="hidden md:block"> &nbsp;</p>
+          <a href="https://www.google.fr/maps/place/D%C3%A9ch%C3%A8terie+de+Septfonds/@44.1747151,1.5918699,17z/data=!3m1!4b1!4m6!3m5!1s0x12ac4372cbff3297:0x8013f5615c3f516b!8m2!3d44.1747151!4d1.5944395!16s%2Fg%2F11jv1n73_f?entry=ttu">
+            <img class="w-8 mx-auto" src="/svg/adresse.svg">
+            <p>95 Rte de Monteils<br>82240 Septfonds</p>
+          </a>
+          <p class="hidden md:block"> &nbsp;</p>
+          <div>
+            <img class="w-8 mx-auto" src="/svg/horaire.svg">
+            <p>Mardi :  8h30 à 12h00<br>
+              Mercredi : 14h à 17h30<br>
+              Jeudi : 8h30 à 12h00<br> 
+              Samedi : 8h30 à 12h et 14h à 17h30</p>
+          </div>      
+        </div>
+      </div>
+      
+
+      
+      <div id="map-Negrepelisse" class="hidden ">
+        <div class="mx-auto text-center text-mycolor-700">
+          <h2 class=" font-bold text-lg text-mycolor-700">Déchetterie de Nègrepelisse</h2>   
+          <p class="hidden md:block"> &nbsp;</p>
+          <a href="tel:0625277147 ">
+            <img class="w-8 mx-auto" src="/svg/phone.svg">
+            <p>06 25 27 71 47</p>
+          </a>
+          <p class="hidden md:block"> &nbsp;</p>
+          <a href="https://www.ville-negrepelisse.fr/ma-ville/environnement/traitement-des-dechets/">
+            <img class="w-8 mx-auto" src="/svg/web.svg">
+            <p>ville-negrepelisse.fr</p>
+          </a>
+          <p class="hidden md:block"> &nbsp;</p>
+          <a href="https://www.google.fr/maps/place/D%C3%A9ch%C3%A8terie+de+N%C3%A8grepelisse/@44.0398635,1.522085,17z/data=!3m1!4b1!4m6!3m5!1s0x12ac3fae88cee3af:0x36694be6d7509699!8m2!3d44.0398635!4d1.5246599!16s%2Fg%2F11h05bzgtg?entry=ttu">
+            <img class="w-8 mx-auto" src="/svg/adresse.svg">
+            <p>Les Douats<br>82800 Nègrepelisse</p>
+          </a>
+          <p class="hidden md:block"> &nbsp;</p>
+          <div>
+            <img class="w-8 mx-auto" src="/svg/horaire.svg">
+            <p>Lundi : 8h30 à 12h00 <br>
+              Mardi : 8h30 à 12h00 - 14h à 17h30 <br>
+              Mercredi : 8h30 à 12h00 - 14h à 17h30 <br>
+              Jeudi : 8h30 à 12h00 - 14h à 17h30 <br>
+              Vendredi : 8h30 à 12h00 - 14h à 17h30 <br>
+              Samedi : 8h30 à 12h00 - 14h à 17h30</p>
+          </div>      
+        </div>
+      </div>
+      
+
+      
+      <div id="map-Parisot" class="hidden ">
+        <div class="mx-auto text-center text-mycolor-700">
+          <h2 class=" font-bold text-lg text-mycolor-700">Déchetterie de Parisot</h2>   
+          <p class="hidden md:block"> &nbsp;</p>
+          <a href="tel:0659086472 ">
+            <img class="w-8 mx-auto" src="/svg/phone.svg">
+            <p>06 59 08 54 72</p>
+          </a>
+          <p class="hidden md:block"> &nbsp;</p>
+          <a href="https://cc-qrga.fr/collecte-de-dechets/dechetteries/">
+            <img class="w-8 mx-auto" src="/svg/web.svg">
+            <p>cc-qrga.fr</p>
+          </a>
+          <p class="hidden md:block"> &nbsp;</p>
+          <a href="https://www.google.fr/maps/place/Dechetterie/@44.2581398,1.8477657,15z/data=!3m1!4b1!4m6!3m5!1s0x12adad1bbbcf5ed7:0x870ef1c8a153d7f0!8m2!3d44.2581403!4d1.858044!16s%2Fg%2F113jr99_l?entry=ttu">
+            <img class="w-8 mx-auto" src="/svg/adresse.svg">
+            <p>Grès<br>82160 Parisot</p>
+          </a>
+          <p class="hidden md:block"> &nbsp;</p>
+          <div>
+            <img class="w-8 mx-auto" src="/svg/horaire.svg">
+            <p>Mardi :  9h à 12h - 13h à 16h30 <br>
+              Mercredi : 9h à 12h - 13h à 16h30 <br>
+              Jeudi : 9h à 12h - 13h à 16h30 <br>
+              Samedi : 9h à 12h - 13h à 16h30</p>
+          </div>      
+        </div>
+      </div>
+
+      
+
+      
+
+      <div id="map-Caussade" class="hidden ">
+        <div class="mx-auto text-center text-mycolor-700">
+          <h2 class=" font-bold text-lg text-mycolor-700">Déchetterie de Caussade</h2>   
+          <p class="hidden md:block"> &nbsp;</p>
+          <a href="tel:0563932866 ">
+            <img class="w-8 mx-auto" src="/svg/phone.svg">
+            <p>05 63 93 28 66</p>
+          </a>
+          <p class="hidden md:block"> &nbsp;</p>
+          <a href="https://www.quercycaussadais.fr/environnement-territoire/les-dechetteries/">
+            <img class="w-8 mx-auto" src="/svg/web.svg">
+            <p>quercycaussadais.fr</p>
+          </a>
+          <p class="hidden md:block"> &nbsp;</p>
+          <a href="https://www.google.fr/maps/place/D%C3%A9chetterie+de+Caussade/@44.1790056,1.5358295,17z/data=!3m1!4b1!4m6!3m5!1s0x12ac42151aa44ef1:0xd58a716cc488cc08!8m2!3d44.1790056!4d1.5384098!16s%2Fg%2F11c4lgy48r?entry=ttu">
+            <img class="w-8 mx-auto" src="/svg/adresse.svg">
+            <p>264, Route de Treilhou<br>82300 Caussade</p>
+          </a>
+          <p class="hidden md:block"> &nbsp;</p>
+          <div>
+            <img class="w-8 mx-auto" src="/svg/horaire.svg">
+            <p>Mardi :  9h à 12h - 13h à 16h30 <br>
+              Mercredi : 9h à 12h - 13h à 16h30 <br>
+              Jeudi : 9h à 12h - 13h à 16h30 <br>
+              Samedi : 9h à 12h - 13h à 16h30</p>
+          </div>      
+        </div>
+      </div>
+
+      
+
+      
+      <div id="map-VertSeptfonds" class="hidden ">
+      </div>
+      
+
+    </div> 
+
+    <svg id="svgMap" class=" p-2 m-auto w-full grid-row-span-1 md:col-span-2 lg:col-span-1 w-full lg:w-10/12 h-auto"    
+      viewBox="0 0 102.42391 93.33416"
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink">   
+      <defs 
+        id="defs1" />
+      <g
+        id="layer1"
+        transform="translate(-53.710416,-101.86456)">
+
+   <text
+   xml:space="preserve"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-condensed;font-size:2.11667px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Semi-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;display:inline;opacity:0.64;fill:#ff0000;fill-opacity:1;stroke:#000001;stroke-width:0;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.997295;paint-order:markers stroke fill"
+   x="135.65981"
+   y="120.36098"
+   id="Parisot"><tspan
+     id="tspan9"
+     x="135.65981"
+     y="120.36098"
+     style="stroke-width:0">Parisot</tspan></text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-condensed;font-size:2.11667px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Semi-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;display:inline;opacity:0.64;fill:#ff0000;fill-opacity:1;stroke:#000001;stroke-width:0;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.997295;paint-order:markers stroke fill"
+   x="96.641861"
+   y="139.41455"
+   id="Septfonds"><tspan
+     id="tspan10"
+     x="96.641861"
+     y="139.41455"
+     style="stroke-width:0">Septfonds</tspan></text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-condensed;font-size:2.11667px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Semi-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;display:inline;opacity:0.64;fill:#ff0000;fill-opacity:1;stroke:#000001;stroke-width:0;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.997295;paint-order:markers stroke fill"
+   x="84.583061"
+   y="138.69774"
+   id="Caussade"><tspan
+     id="tspan11"
+     x="84.583061"
+     y="138.69774"
+     style="stroke-width:0">Caussade</tspan></text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-condensed;font-size:2.11667px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Semi-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;display:inline;opacity:0.64;fill:#ff0000;fill-opacity:1;stroke:#000001;stroke-width:0;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.997295;paint-order:markers stroke fill"
+   x="83.445862"
+   y="163.90781"
+   id="Negrepelisse"><tspan
+     id="tspan12"
+     x="83.445862"
+     y="163.90781"
+     style="stroke-width:0">Nègrepelisse</tspan></text>
+
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-condensed;font-size:2.11667px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Semi-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;display:inline;opacity:0.64;fill:#000000;fill-opacity:1;stroke:#000001;stroke-width:0;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.997295;paint-order:markers stroke fill"
+   x="84.650719"
+   y="174.05728"
+   id="QuercyVert"><tspan
+     id="tspan8"
+     x="84.650719"
+     y="174.05728"
+     style="stroke-width:0">Quercy Vert Aveyron</tspan></text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-condensed;font-size:2.11667px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Semi-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;display:inline;opacity:0.64;fill:#000000;fill-opacity:1;stroke:#000001;stroke-width:0;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.997295;paint-order:markers stroke fill"
+   x="125.07978"
+   y="126.37115"
+   id="QRGA"><tspan
+     id="tspan5"
+     x="125.07978"
+     y="126.37115"
+     style="stroke-width:0">Quercy Rouergue</tspan><tspan
+     id="tspan6"
+     x="125.07978"
+     y="129.01698"
+     style="stroke-width:0">Gorges Aveyron</tspan></text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-condensed;font-size:2.11667px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Semi-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;display:inline;opacity:0.64;fill:#000000;fill-opacity:1;stroke:#000001;stroke-width:0;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.997295;paint-order:markers stroke fill"
+   x="79.795181"
+   y="142.78711"
+   id="QuercyCaussade"><tspan
+     id="tspan7"
+     x="79.795181"
+     y="142.78711"
+     style="stroke-width:0">Quercy Caussadais</tspan></text>
+
+   <a id="a-Parisot" class="" xlink:href="javascript:void(0)" onClick="reply_click(this.id)"> 
+    
+  <image class="w-1" x="134" y="114.5" href="/svg/dechetterie.svg"   />
+   </a>
+  <a id="a-Negrepelisse" xlink:href="javascript:void(0)" onClick="reply_click(this.id)">  
+    
+  <image class="w-1" x="80" y="164.5" href="/svg/dechetterie.svg"   />
+  </a>
+ <a id="a-Septfonds" xlink:href="javascript:void(0)" onClick="reply_click(this.id)">  
+  
+  <image class="w-1" x="92" y="133.5" href="/svg/dechetterie.svg"   />
+ </a>
+ <a id="a-VertSeptfonds" xlink:href="javascript:void(0)" onClick="reply_click(this.id)">  
+  
+ <image class="w-1" x="98" y="133.5" href="/svg/dechetterieDepot.svg"   />
+ </a>
+ <a id="a-Caussade" xlink:href="javascript:void(0)" onClick="reply_click(this.id)">  
+  
+    <image class="w-1" x="82" y="133" href="/svg/dechetterie.svg"   />
+ </a>
+
+ 
+
+  
+
+
+ 
+
+  <path
+     style="display:inline;opacity:0.64;fill:none;stroke:#e5303d;stroke-width:0.499999;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.997295;paint-order:markers stroke fill"
+     d="m 75.915381,113.31864 -1.589894,3.51782 -1.164722,0.5082 -0.711264,2.52436 -3.639404,2.42498 -0.355436,-0.6355 -5.076161,3.69347 -2.10615,0.91446 -3.288403,3.75455 -1.502822,2.19006 -1.479233,-0.6445 -1.046464,5.15991 2.182236,-1.18693 2.758429,0.93456 1.031735,1.06224 -0.656979,1.07729 1.878155,1.83468 -3.226607,1.57889 1.413209,3.24836 3.016205,0.81143 2.866543,2.26301 2.342626,1.92027 -0.776076,1.98893 -0.960159,1.18893 -1.457645,2.05573 1.263044,2.07895 1.324906,1.74492 0.819639,2.84362 -0.533601,1.79983 0.557324,3.00847 1.094264,3.8016 0.752469,3.36269 0.216144,0.41018 -0.830607,1.02398 0.857507,2.26372 1.978686,0.8189 2.174926,0.59677 0.514545,-1.98751 1.653895,1.42974 -0.654047,0.64414 0.690866,1.8841 -0.797552,0.85516 1.848104,3.7704 -1.394812,0.56741 -0.281326,0.57529 2.662084,0.99264 1.876685,3.39421 0.955989,3.22934 1.314183,0.3445 1.104551,-1.58207 0.17753,-2.29739 4.64411,0.95333 1.216276,-0.42957 0.643877,-2.33259 0.449278,-1.9667 -1.252889,-0.62819 -4.701688,-1.02813 0.338642,-1.5602 -0.388442,-0.99226 1.44191,0.55547 0.60575,-1.4622 2.323383,-0.33566 3.064447,1.02134 5.482497,-0.0435 -0.361283,-2.62776 2.705938,-4.21729 1.963768,0.30617 1.15952,-0.44378 0.10983,-0.98854 -1.11826,-2.71815 2.9973,0.33012 0.55201,-1.4108 3.04537,-1.40807 1.95499,-4.3187 -1.91938,-3.50131 -1.38357,-0.94797 -2.87833,-0.3229 -0.29921,-1.29475 1.24287,-3.53644 -2.62525,-1.5588 -0.0613,-2.63496 0.82596,-1.91594 0.76758,0.77231 2.31,-0.2387 1.8957,0.66804 2.11175,-1.15568 2.82637,0.622 0.28207,-0.57245 1.85292,1.2886 1.95963,-0.68996 4.57861,3.80503 2.22247,-0.55246 -0.82502,-1.74005 2.12502,-1.92024 0.81039,-1.59874 2.64137,3.88176 1.98554,0.93815 0.62584,-1.85084 -1.50619,-4.447 1.1488,-2.82834 1.77397,2.41436 1.10865,-0.66597 1.30495,-1.05203 2.73311,1.02082 1.26153,-0.55334 1.54038,1.88802 1.43414,0.0164 1.30378,-1.67606 -3.63416,-3.38279 2.15505,-1.63627 1.73795,-0.26382 2.47283,2.41234 0.69746,1.26845 2.69476,-0.30701 1.21499,1.02229 2.91562,-1.66155 0.43933,0.66529 1.47588,-1.98536 -2.87778,-1.33165 -0.52041,-1.12472 0.94292,-1.60495 -1.16217,-1.02801 -2.26899,-0.16193 -2.203,0.22075 -0.73087,2.67131 -0.50667,-1.008 -0.36537,-2.084 -0.72414,-1.00934 -2.26842,0.59677 -0.0794,-0.79959 -1.42904,-1.26641 0.52808,-1.17558 -2.38786,-1.42959 0.72752,-1.20517 1.78557,0.27314 3.89028,-6.68063 1.34064,-0.769 1.1321,0.93874 1.86044,0.12004 0.25378,-4.45064 1.4898,-2.78346 -2.14253,-1.02821 -2.17697,0.36747 -0.26255,-0.9849 -5.8969,0.9544 -5.29663,-2.79762 1.73609,-2.30287 -2.65346,-3.87226 2.09774,-2.95963 1.31297,0.2785 -0.38167,-1.99991 -4.31905,2.21789 -0.80913,-1.48999 -2.39537,0.94074 -0.67693,2.22402 -2.90993,-1.60927 -0.3984,-1.17589 -2.19667,0.68397 -0.11936,1.34396 -0.91705,-0.0717 v 1.35845 l -0.46652,0.50653 -1.21668,0.62971 -2.11179,-1.81506 -2.96878,-0.71281 -1.29721,1.9663 -3.54935,1.26985 -1.4102,-0.85965 -3.4034,3.59015 h -0.89543 l -0.38502,0.92774 -0.97962,1.12942 -0.58339,0.86506 -1.55719,-2.50522 -2.12149,0.28565 1.63046,2.41246 -0.7316,2.42698 -0.77847,0.54327 -1.317478,-0.29368 -1.876465,-1.52669 -0.02371,-4.04737 -2.025216,0.0663 -1.197023,-1.1538 -3.430826,0.12341 -0.354621,0.68573 0.970653,2.93223 -1.982856,1.0245 1.255721,1.7083 1.177361,2.1048 0.67056,2.48897 -2.052722,2.93276 -3.760462,1.26218 -2.439686,-0.0291 -0.843854,-1.9384 -1.054516,-3.27592 0.78417,-1.3916 -1.889623,-2.8924 -1.643223,0.59755 -2.092561,-0.64053 -0.230306,-1.00614 z"
+     id="limiteComCom" />
+  <path
+     style="display:inline;opacity:0.64;fill:none;stroke:#303be5;stroke-width:0.499999;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.997295;paint-order:markers stroke fill"
+     d="m 104.65775,114.07688 -0.23883,1.84381 -0.7378,1.33412 -0.55964,3.44614 4.52517,-2.64199 1.22601,3.16227 -1.19371,3.92159 1.40829,2.44777 -0.12369,1.4503 1.68514,1.85968 -0.23871,1.29708 -6.76991,2.99701 -1.27586,6.08654 -1.82039,0.36191 0.0579,3.93415 1.56064,-0.46438 2.52763,0.37642 -2.29723,1.72652 1.0397,2.38842 v 0"
+     id="limiteCaussadaisQRGA" />
+  <path
+     style="display:inline;opacity:0.64;fill:none;stroke:#303be5;stroke-width:0.499999;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.997295;paint-order:markers stroke fill"
+     d="m 67.433062,151.06501 1.119928,0.90993 1.808864,-1.64784 0.105892,1.41817 0.845407,1.01212 -0.09583,1.61174 1.04925,0.28614 h 1.036897 l 3.3943,-3.42166 1.775608,2.23657 0.613092,0.7188 1.698448,-2.02873 -0.23871,-0.65012 2.845766,-1.64216 -0.227843,-1.43432 1.874853,0.78099 2.824898,0.27463 3.281958,1.99487 1.432298,-0.78973 2.150626,-0.0894 1.340106,1.15717 1.86576,-5.08962 2.47105,-1.21882"
+     id="limiteCaussadaisVert" />
+
+</g>
+      </svg>
+
+
+
+      
+
+</div>
+
+
+  <script>
+      var divArray = ["map-General", "map-Negrepelisse", "map-Septfonds", "map-VertSeptfonds", "map-Caussade", "map-Parisot"];
+      function reply_click(clicked_id) {
+          let name = clicked_id.split("-")[1]
+          let div = "map-"+name
+
+          for (let i=0; i<divArray.length; i++){
+              var element = document.getElementById(divArray[i]);
+              element.style.display = "none";
+              if (element.id === div) {
+                  element.style.display = "block";
+              }
+          }
+        }
+  </script>
+
+<div class="grid grid-cols-1 md:divide-y divide-red-400 py-4">
+
+    <div></div>
+    <div></div>
+
+</div>
+
+
+    
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+<div class="w-full">
+    <div class="grid grid-cols-3 ">
+
+        <div class="bg-mycolor-100 text-mycolor-800 text-center text-sm md:text-base font-bold">
+            <p class="pt-2">La déchetterie de</p>
+            <p class="uppercase">Caussade</p>
+        </div>
+
+        <div class="col-span-2  pl-2 md:pl-4 py-2">
+            <a href= 05063932866>
+                <img class="w-4 inline-block align-middle"  src="/svg/phone.svg">
+                <span class="text-xs md:text-sm lg:text-base inline-block align-middle pl-2 md:pl-4" >05-06-39-32-86</span>
+            </a>
+            <br>
+            <a href= https://www.quercycaussadais.fr/environnement-territoire/les-dechetteries/>
+                <img class="w-4 inline-block align-middle"  src="/svg/web.svg">
+                <span class="text-xs md:text-sm lg:text-base  inline-block align-middle pl-2 md:pl-4" >quercycaussadais.fr</span>
+            </a>
+            <br>
+            <a href= https://www.google.fr/maps/place/D%C3%A9chetterie&#43;de&#43;Caussade/@44.1790056,1.5358295,17z/data&#61;!3m1!4b1!4m6!3m5!1s0x12ac42151aa44ef1:0xd58a716cc488cc08!8m2!3d44.1790056!4d1.5384098!16s%2Fg%2F11c4lgy48r?entry&#61;ttu>
+                <img class="w-4 inline-block align-middle"  src="/svg/adresse.svg">
+                <span class="text-xs md:text-sm lg:text-base  inline-block align-middle pl-2 md:pl-4" >105 route de Treilhou - 82300 Caussade</span>
+            </a>
+            <div class="text-xs md:text-sm lg:text-base ">
+                Mardi : 9h à 12h - 13h à 16h30 <br>Mercredi : 9h à 12h - 13h à 16h30  <br>Jeudi : 9h à 12h - 13h à 16h30<br>Samedi : 9h à 12h - 13h à 16h30 
+            </div>
+        </div>
+
+    </div>  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+<div class="w-full">
+    <div class="grid grid-cols-3 ">
+
+        <div class="text-mycolor-800 text-center text-sm md:text-base font-bold">
+            <p class="pt-2">La déchetterie de</p>
+            <p class="uppercase">Nègrepelisse</p>
+        </div>
+
+        <div class="col-span-2  pl-2 md:pl-4 py-2 bg-mycolor-100">
+            <a href= 0625277147>
+                <img class="w-4 inline-block align-middle"  src="/svg/phone.svg">
+                <span class="text-xs md:text-sm lg:text-base inline-block align-middle pl-2 md:pl-4" >06-25-27-71-47</span>
+            </a>
+            <br>
+            <a href= https://www.ville-negrepelisse.fr/ma-ville/environnement/traitement-des-dechets/>
+                <img class="w-4 inline-block align-middle"  src="/svg/web.svg">
+                <span class="text-xs md:text-sm lg:text-base  inline-block align-middle pl-2 md:pl-4" >ville-negrepelisse.fr</span>
+            </a>
+            <br>
+            <a href= https://www.google.fr/maps/place/D%C3%A9ch%C3%A8terie&#43;de&#43;N%C3%A8grepelisse/@44.0398635,1.522085,17z/data&#61;!3m1!4b1!4m6!3m5!1s0x12ac3fae88cee3af:0x36694be6d7509699!8m2!3d44.0398635!4d1.5246599!16s%2Fg%2F11h05bzgtg?entry&#61;ttu>
+                <img class="w-4 inline-block align-middle"  src="/svg/adresse.svg">
+                <span class="text-xs md:text-sm lg:text-base  inline-block align-middle pl-2 md:pl-4" >Les Douats - 82800 Nègrepelisse</span>
+            </a>
+            <div class="text-xs md:text-sm lg:text-base ">
+                Lundi : 8h30 à 12h00<br>Mardi : 8h30 à 12h00 - 14h à 17h30<br>Mercredi : 8h30 à 12h00 - 14h à 17h30<br>Jeudi : 8h30 à 12h00 - 14h à 17h30<br>Vendredi : 8h30 à 12h00 - 14h à 17h30<br>Samedi : 8h30 à 12h00 - 14h à 17h30
+            </div>
+        </div>
+
+    </div>  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+<div class="w-full">
+    <div class="grid grid-cols-3 ">
+
+        <div class="bg-mycolor-100 text-mycolor-800 text-center text-sm md:text-base font-bold">
+            <p class="pt-2">La déchetterie de</p>
+            <p class="uppercase">Parisot</p>
+        </div>
+
+        <div class="col-span-2  pl-2 md:pl-4 py-2">
+            <a href= 0659085472>
+                <img class="w-4 inline-block align-middle"  src="/svg/phone.svg">
+                <span class="text-xs md:text-sm lg:text-base inline-block align-middle pl-2 md:pl-4" >06-59-08-54-72</span>
+            </a>
+            <br>
+            <a href= https://www.cc-qrga.fr/collecte-de-dechets/dechetteries/>
+                <img class="w-4 inline-block align-middle"  src="/svg/web.svg">
+                <span class="text-xs md:text-sm lg:text-base  inline-block align-middle pl-2 md:pl-4" >cc-qrga.fr</span>
+            </a>
+            <br>
+            <a href= https://www.google.fr/maps/place/Dechetterie/@44.2581398,1.8477657,15z/data&#61;!3m1!4b1!4m6!3m5!1s0x12adad1bbbcf5ed7:0x870ef1c8a153d7f0!8m2!3d44.2581403!4d1.858044!16s%2Fg%2F113jr99_l?entry&#61;ttu>
+                <img class="w-4 inline-block align-middle"  src="/svg/adresse.svg">
+                <span class="text-xs md:text-sm lg:text-base  inline-block align-middle pl-2 md:pl-4" >Grès - 82160 Parisot</span>
+            </a>
+            <div class="text-xs md:text-sm lg:text-base ">
+                Mardi : 9h à 12h - 13h à 16h30<br>Mercredi : 9h à 12h - 13h à 16h30<br>Jeudi : 9h à 12h - 13h à 16h30<br>Samedi : 9h à 12h - 13h à 16h30
+            </div>
+        </div>
+
+    </div>  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+<div class="w-full">
+    <div class="grid grid-cols-3 ">
+
+        <div class="text-mycolor-800 text-center text-sm md:text-base font-bold">
+            <p class="pt-2">La déchetterie de</p>
+            <p class="uppercase">Septfonds</p>
+        </div>
+
+        <div class="col-span-2  pl-2 md:pl-4 py-2 bg-mycolor-100">
+            <a href= 0659096693>
+                <img class="w-4 inline-block align-middle"  src="/svg/phone.svg">
+                <span class="text-xs md:text-sm lg:text-base inline-block align-middle pl-2 md:pl-4" >06-59-09-66-93</span>
+            </a>
+            <br>
+            <a href= http://www.septfonds.fr/fr/infos-pratiques/dechetterie.html>
+                <img class="w-4 inline-block align-middle"  src="/svg/web.svg">
+                <span class="text-xs md:text-sm lg:text-base  inline-block align-middle pl-2 md:pl-4" >septfonds.fr</span>
+            </a>
+            <br>
+            <a href= https://www.google.fr/maps/place/D%C3%A9ch%C3%A8terie&#43;de&#43;Septfonds/@44.1747151,1.5918699,17z/data&#61;!3m1!4b1!4m6!3m5!1s0x12ac4372cbff3297:0x8013f5615c3f516b!8m2!3d44.1747151!4d1.5944395!16s%2Fg%2F11jv1n73_f?entry&#61;ttu>
+                <img class="w-4 inline-block align-middle"  src="/svg/adresse.svg">
+                <span class="text-xs md:text-sm lg:text-base  inline-block align-middle pl-2 md:pl-4" >95, Route de Monteils - 82240 Septfonds</span>
+            </a>
+            <div class="text-xs md:text-sm lg:text-base ">
+                Mardi : 8h30 à 12h00<br>Mercredi : 14h à 17h30<br>Jeudi : 8h30 à 12h00<br>Samedi : 8h30 à 12h et 14h à 17h30
+            </div>
+        </div>
+
+    </div>  
+</div>
+
 
 <div class="grid grid-cols-1 md:divide-y divide-red-400 py-4">
 
@@ -201,30 +833,6 @@
 
     
 
-<h2 id="formulaire-de-contact">Formulaire de contact</h2>
-<!-- essai tailwind form component -->
-<div class="w-full max-w-xs">
-  <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4"   action="https://formspree.io/f/xdoqprgv"
-  method="POST">
-    <div class="mb-4">
-      <label class="block text-gray-700 text-sm font-bold mb-2" >
-        Votre mail
-      </label>
-      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="email" name="email">
-    </div>
-    <div class="mb-6">
-      <label class="block text-gray-700 text-sm font-bold mb-2" >
-       Votre message
-      </label>
-      <textarea class="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" name="Votre message"></textarea>
-    </div>
-    <div class="flex items-center justify-between">
-      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
-        Envoi
-      </button>
-    </div>
-  </form>
-</div>
 
 
 
@@ -314,7 +922,7 @@
 
   
 
-  
+  <!-- Script pour le menu -->
 
   <script  language="javascript" type="text/javascript"  src="/js/nav.js"></script>
 

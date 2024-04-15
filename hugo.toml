@@ -5,9 +5,10 @@ title = 'BB82'
 [markup.goldmark.renderer]
   unsafe = true # Allow HTML in md files
 
+[mediaTypes]
+  [mediaTypes."application/json"]
+    suffixes = ["json"]
 
-[mediaTypes."application/json"]
-  suffixes = ["json"]
 
 [outputFormats]
   [outputFormats.json]
@@ -16,7 +17,11 @@ title = 'BB82'
     mediaType = "application/json"
     baseName = "json/agenda" 
     isPlainText = true
-    
+  
+
+[outputs]
+page=["HTML"]
+
 
 [menu]
   [[menu.main]]

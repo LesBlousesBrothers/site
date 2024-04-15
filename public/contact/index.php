@@ -2,7 +2,7 @@
 <html lang="fr-fr">
 
   
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <head>
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -190,17 +190,6 @@
 <img class="w-8 inline  align-middle pb-4 "  src="/svg/adresse.svg">
 <span class="pl-32">chemin de YY 82 ZZZ</span>
 </div>
-
-<div class="grid grid-cols-1 md:divide-y divide-red-400 py-4">
-
-    <div></div>
-    <div></div>
-
-</div>
-
-
-    
-
 <h2 id="formulaire-de-contact">Formulaire de contact</h2>
 <!-- essai tailwind form component -->
 <div class="w-full max-w-xs">
@@ -314,7 +303,7 @@
 
   
 
-  
+  <!-- Script pour le menu -->
 
   <script  language="javascript" type="text/javascript"  src="/js/nav.js"></script>
 

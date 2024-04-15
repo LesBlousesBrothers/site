@@ -2,7 +2,7 @@
 <html lang="fr-fr">
 
   
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <head>
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -167,7 +167,7 @@
   
     
 
-<h1 class="uppercase text-center pt-8 pb-10 lg:pt-20 lg:pb-24 bg-mycolor-200">Contact</h1>
+<h1 class="uppercase text-center pt-8 pb-10 lg:pt-20 lg:pb-24 bg-mycolor-200">Bricole 2022 12</h1>
 
   
 
@@ -176,55 +176,65 @@
        
     
 
-  <h2 id="nos-coordonnées">Nos Coordonnées</h2>
-<br>
-<div class="pl-4 text-lg">
-<img class="w-8 inline  align-middle pb-4 "  src="/svg/phone.svg">
-<span class="pl-32">06-06-06-06-06</span>
+  <div class="w-1/6 mx-auto">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<picture>
+  <source
+    type="image/webp"
+    srcset="/archives/bricole-2022-12/affiche_hu714f047d0d32637cd61c5023824cd4c3_78747_320x0_resize_q75_h2_box.webp 320w"
+    sizes="(min-width: 1024px) 100vw, 50vw"
+  />
+  <source
+    type="image/jpeg"
+    srcset="/archives/bricole-2022-12/affiche_hu714f047d0d32637cd61c5023824cd4c3_78747_320x0_resize_q75_box.jpg 320w"\
+    sizes="(min-width: 1024px) 100vw, 50vw"
+  />
+  <img class="w-full h-auto "
+    src="/archives/bricole-2022-12/affiche_hu714f047d0d32637cd61c5023824cd4c3_78747_640x0_resize_q75_box.jpg"
+    width="526"
+    height="1050"
+    alt=""
+    loading="lazy"
+  />
+</picture>
+
 </div>
-<div class="pl-4 text-lg">
-<img class="w-8 inline  align-middle pb-4 "  src="/svg/mail.svg">
-<span class="pl-32">ccc@zzz.yy</span>
-</div>
-<div class="pl-4 text-lg">
-<img class="w-8 inline  align-middle pb-4 "  src="/svg/adresse.svg">
-<span class="pl-32">chemin de YY 82 ZZZ</span>
-</div>
-
-<div class="grid grid-cols-1 md:divide-y divide-red-400 py-4">
-
-    <div></div>
-    <div></div>
-
-</div>
-
-
-    
-
-<h2 id="formulaire-de-contact">Formulaire de contact</h2>
-<!-- essai tailwind form component -->
-<div class="w-full max-w-xs">
-  <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4"   action="https://formspree.io/f/xdoqprgv"
-  method="POST">
-    <div class="mb-4">
-      <label class="block text-gray-700 text-sm font-bold mb-2" >
-        Votre mail
-      </label>
-      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="email" name="email">
-    </div>
-    <div class="mb-6">
-      <label class="block text-gray-700 text-sm font-bold mb-2" >
-       Votre message
-      </label>
-      <textarea class="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" name="Votre message"></textarea>
-    </div>
-    <div class="flex items-center justify-between">
-      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
-        Envoi
-      </button>
-    </div>
-  </form>
-</div>
+<h2 id="au-menu-des-réparations">Au Menu des Réparations</h2>
+<ul>
+<li>une TV 47 pouces</li>
+<li>Deux enceintes bluetooth</li>
+<li>un grille pain</li>
+<li>une cafetière expresso</li>
+<li>un radiateur à flux caloporteur</li>
+</ul>
+<h2 id="non-réparé">Non Réparé</h2>
+<ul>
+<li>une tronçonneuse</li>
+<li>projecteur led (driver de led HS)</li>
+</ul>
+<h2 id="commentaires">Commentaires</h2>
+<p>Super soirée à la <em><a href="https://www.facebook.com/Stantobelier">Brasserie Bélier</a></em> pour le dernier café rafistole de l&rsquo;année ! 🤪<br>
+Et que dire du rougail saucisse d&rsquo;Arnaud !<br>
+Exquis !<br>
+Merci à tous pour votre bonne humeur, pour ce moment partagé tous ensemble.<br>
+On vous dit à très vite 😘</p>
 
 
 
@@ -314,7 +324,7 @@
 
   
 
-  
+  <!-- Script pour le menu -->
 
   <script  language="javascript" type="text/javascript"  src="/js/nav.js"></script>
 

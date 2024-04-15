@@ -2,7 +2,7 @@
 <html lang="fr-fr">
 
   
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <head>
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -167,7 +167,7 @@
   
     
 
-<h1 class="uppercase text-center pt-8 pb-10 lg:pt-20 lg:pb-24 bg-mycolor-200">Contact</h1>
+<h1 class="uppercase text-center pt-8 pb-10 lg:pt-20 lg:pb-24 bg-mycolor-200">À Propos</h1>
 
   
 
@@ -176,56 +176,70 @@
        
     
 
-  <h2 id="nos-coordonnées">Nos Coordonnées</h2>
-<br>
-<div class="pl-4 text-lg">
-<img class="w-8 inline  align-middle pb-4 "  src="/svg/phone.svg">
-<span class="pl-32">06-06-06-06-06</span>
+  <h2 id="test-dimage-tramée">Test d&rsquo;image tramée</h2>
+<ul>
+<li>l&rsquo;image est tramée</li>
+<li>elle est affichée via un src set</li>
+<li>poids de l&rsquo;image : 257 ko !!!</li>
+<li>un lien clickable ouvre l&rsquo;image originelle dans une autre fenêtre</li>
+</ul>
+<div class="w-9/12 mx-auto pt-8 pb-2">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<picture>
+  <source
+    type="image/webp"
+    srcset="/apropos/imagePageTrameResize_hu18034aea213b7c265ce98fc5f3b62d74_71124_320x0_resize_q75_h2_box.webp 320w, /apropos/imagePageTrameResize_hu18034aea213b7c265ce98fc5f3b62d74_71124_640x0_resize_q75_h2_box.webp 640w, /apropos/imagePageTrameResize_hu18034aea213b7c265ce98fc5f3b62d74_71124_960x0_resize_q75_h2_box.webp 960w"
+    sizes="(min-width: 1024px) 100vw, 50vw"
+  />
+  <source
+    type="image/jpeg"
+    srcset="/apropos/imagePageTrameResize_hu18034aea213b7c265ce98fc5f3b62d74_71124_320x0_resize_q75_box.jpg 320w, /apropos/imagePageTrameResize_hu18034aea213b7c265ce98fc5f3b62d74_71124_640x0_resize_q75_box.jpg 640w, /apropos/imagePageTrameResize_hu18034aea213b7c265ce98fc5f3b62d74_71124_960x0_resize_q75_box.jpg 960w"\
+    sizes="(min-width: 1024px) 100vw, 50vw"
+  />
+  <img class="w-full h-auto "
+    src="/apropos/imagePageTrameResize_hu18034aea213b7c265ce98fc5f3b62d74_71124_640x0_resize_q75_box.jpg"
+    width="1024"
+    height="768"
+    alt="une image tramée cliquable"
+    loading="lazy"
+  />
+</picture>
+
+<p><a class="underline" href="./imagePage.jpg" target="_blank" >Click pour ouvrir l&rsquo;image dans une autre page</a></p>
 </div>
-<div class="pl-4 text-lg">
-<img class="w-8 inline  align-middle pb-4 "  src="/svg/mail.svg">
-<span class="pl-32">ccc@zzz.yy</span>
+<h2 id="image-tramée-sans-srcset">Image tramée sans srcset</h2>
+<ul>
+<li>l&rsquo;image est tramée</li>
+<li>c&rsquo;est la même image que plus haut</li>
+<li>poids de l&rsquo;image : 71 ko</li>
+</ul>
+<div class="w-9/12 mx-auto pt-8 pb-2">
+
+
+
+
+<img src="/apropos/imagePageTrameResize.jpg" alt="image sans srcset">
+
+
+ 
 </div>
-<div class="pl-4 text-lg">
-<img class="w-8 inline  align-middle pb-4 "  src="/svg/adresse.svg">
-<span class="pl-32">chemin de YY 82 ZZZ</span>
-</div>
-
-<div class="grid grid-cols-1 md:divide-y divide-red-400 py-4">
-
-    <div></div>
-    <div></div>
-
-</div>
-
-
-    
-
-<h2 id="formulaire-de-contact">Formulaire de contact</h2>
-<!-- essai tailwind form component -->
-<div class="w-full max-w-xs">
-  <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4"   action="https://formspree.io/f/xdoqprgv"
-  method="POST">
-    <div class="mb-4">
-      <label class="block text-gray-700 text-sm font-bold mb-2" >
-        Votre mail
-      </label>
-      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="email" name="email">
-    </div>
-    <div class="mb-6">
-      <label class="block text-gray-700 text-sm font-bold mb-2" >
-       Votre message
-      </label>
-      <textarea class="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" name="Votre message"></textarea>
-    </div>
-    <div class="flex items-center justify-between">
-      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
-        Envoi
-      </button>
-    </div>
-  </form>
-</div>
-
 
 
   </div>
@@ -314,7 +328,7 @@
 
   
 
-  
+  <!-- Script pour le menu -->
 
   <script  language="javascript" type="text/javascript"  src="/js/nav.js"></script>
 

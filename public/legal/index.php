@@ -2,7 +2,7 @@
 <html lang="fr-fr">
 
   
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <head>
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -167,7 +167,7 @@
   
     
 
-<h1 class="uppercase text-center pt-8 pb-10 lg:pt-20 lg:pb-24 bg-mycolor-200">Contact</h1>
+<h1 class="uppercase text-center pt-8 pb-10 lg:pt-20 lg:pb-24 bg-mycolor-200">Mentions Légales</h1>
 
   
 
@@ -176,55 +176,99 @@
        
     
 
-  <h2 id="nos-coordonnées">Nos Coordonnées</h2>
-<br>
-<div class="pl-4 text-lg">
-<img class="w-8 inline  align-middle pb-4 "  src="/svg/phone.svg">
-<span class="pl-32">06-06-06-06-06</span>
-</div>
-<div class="pl-4 text-lg">
-<img class="w-8 inline  align-middle pb-4 "  src="/svg/mail.svg">
-<span class="pl-32">ccc@zzz.yy</span>
-</div>
-<div class="pl-4 text-lg">
-<img class="w-8 inline  align-middle pb-4 "  src="/svg/adresse.svg">
-<span class="pl-32">chemin de YY 82 ZZZ</span>
-</div>
+  
 
-<div class="grid grid-cols-1 md:divide-y divide-red-400 py-4">
-
-    <div></div>
-    <div></div>
-
-</div>
-
-
+<div class="flex p-8 bg-gradient-to-b from-mycolor-400 via-mycolor-200 to-mycolor-400 font-bold text-mycolor-600">
     
-
-<h2 id="formulaire-de-contact">Formulaire de contact</h2>
-<!-- essai tailwind form component -->
-<div class="w-full max-w-xs">
-  <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4"   action="https://formspree.io/f/xdoqprgv"
-  method="POST">
-    <div class="mb-4">
-      <label class="block text-gray-700 text-sm font-bold mb-2" >
-        Votre mail
-      </label>
-      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="email" name="email">
-    </div>
-    <div class="mb-6">
-      <label class="block text-gray-700 text-sm font-bold mb-2" >
-       Votre message
-      </label>
-      <textarea class="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" name="Votre message"></textarea>
-    </div>
-    <div class="flex items-center justify-between">
-      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
-        Envoi
-      </button>
-    </div>
-  </form>
+        <h2 class=" mx-auto display-4 text-center text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl"> Informations Editoriales </h2>
+    
 </div>
+
+<h3 id="editeur">Editeur</h3>
+<p>Les Blouses Brothers 82
+x route de U
+82xxx ZZZZZ
+### Direction de publication
+XXXX</p>
+
+
+<div class="flex p-8 bg-gradient-to-b from-mycolor-400 via-mycolor-200 to-mycolor-400 font-bold text-mycolor-600">
+    
+        <h2 class=" mx-auto display-4 text-center text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl"> Protection et traitement de données à caractère personnel </h2>
+    
+</div>
+
+<h3 id="respect-des-lois-en-vigueur">Respect des lois en vigueur</h3>
+<p>Le site XXXXX respecte la vie privée de l’internaute et se conforme strictement aux lois en vigueur sur la protection de la vie privée et des libertés individuelles. Aucune information personnelle n’est collectée à votre insu. Aucune information personnelle n’est cédée à des tiers. Les courriels, les adresses électroniques ou autres informations nominatives dont ce site est destinataire ne font l’objet d’aucune exploitation et ne sont conservés que pour la durée nécessaire à leur traitement.</p>
+<h3 id="droit-des-internautes--droit-daccès-et-de-rectification">Droit des internautes : droit d’accès et de rectification</h3>
+<p>La collecte et le traitement de vos données effectués à partir du site sont conformes au règlement général sur la protection des données (RGPD) et à la loi Informatique et Libertés.</p>
+<p>Pour toute information ou exercice de vos droits Informatique et Libertés sur les traitements de données personnelles, vous pouvez contacter l&rsquo;<em><a href="#editeur">éditeur</a></em></p>
+<p>
+
+<div class="flex p-8 bg-gradient-to-b from-mycolor-400 via-mycolor-200 to-mycolor-400 font-bold text-mycolor-600">
+    
+        <h2 class=" mx-auto display-4 text-center text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl"> Cookies </h2>
+    
+</div>
+
+Ce site étant statique, il ne recueille par lui-même aucun cookie.
+Les seuls cookies utilisés par le site le seront par le biais de sites en liens hypertexte (googlemaps ou facebook par exemple).</p>
+<h4 id="définition-dun-cookie">Définition d’un cookie</h4>
+<p>Un cookie est un fichier texte déposé sur votre ordinateur lors de la visite d’un site ou de la consultation d’une publicité. Il a pour but de collecter des informations relatives à votre navigation et de vous adresser des services adaptés à votre terminal (ordinateur, mobile ou tablette). Les cookies sont gérés par votre navigateur internet.</p>
+<h4 id="paramétrer-votre-navigateur-internet">Paramétrer votre navigateur internet</h4>
+<p>Votre navigateur peut également être paramétré pour vous signaler les cookies qui sont déposés dans votre ordinateur et vous demander de les accepter ou pas. Vous pouvez accepter ou refuser les cookies au cas par cas ou bien les refuser systématiquement.</p>
+
+
+<div class="flex p-8 bg-gradient-to-b from-mycolor-400 via-mycolor-200 to-mycolor-400 font-bold text-mycolor-600">
+    
+        <h2 class=" mx-auto display-4 text-center text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl"> Informations Prestataires </h2>
+    
+</div>
+
+<p>L’hébergement est assuré par XXXXXX</p>
+
+
+<div class="flex p-8 bg-gradient-to-b from-mycolor-400 via-mycolor-200 to-mycolor-400 font-bold text-mycolor-600">
+    
+        <h2 class=" mx-auto display-4 text-center text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl"> Droits d’auteur et droits de reproduction </h2>
+    
+</div>
+
+<h3 id="demande-dautorisation-de-reproduction-du-logo">Demande d’autorisation de reproduction du logo</h3>
+<p>Si, dans le cadre d’une communication officielle, vous avez besoin d’utiliser le logotype de l&rsquo;association pour tous supports internes et externes (brochures, publications, sites, etc.), merci d’envoyer votre demande à l’adresse suivante :</p>
+<ul>
+<li>SSSSS</li>
+<li>TTTTT</li>
+<li>VVVV</li>
+</ul>
+<h3 id="demande-dautorisation-de-reproduction-des-contenus">Demande d’autorisation de reproduction des contenus</h3>
+<p>Toute copie partielle ou intégrale sur support papier ou sous forme électronique de pages du site doit faire l’objet d’une déclaration auprès du webmaster.
+Les demandes d’autorisation de reproduction d’un contenu doivent être adressées à la rédaction du site par mail ou par courrier</p>
+<ul>
+<li>Courrier dddddd</li>
+<li>Mail <a href="mailto:vvv@gmail.com">vvv@gmail.com</a></li>
+</ul>
+<p>La demande devra préciser le contenu visé ainsi que la publication ou le site sur lequel ce dernier figurera. Une fois cette autorisation obtenue, la reproduction d’un contenu doit obéir aux principes suivants :</p>
+<ul>
+<li>gratuité de la diffusion ;</li>
+<li>respect de l’intégrité des documents reproduits (aucune modification, ni altération d’aucune sorte) ;</li>
+<li>mention obligatoire : &ldquo;© bb - droits réservés&rdquo;. Cette mention pointera grâce à un lien hypertexte directement sur le contenu.
+### Crédits photos et illustrations
+Toutes les photographies du site sont propriété de l&rsquo;association ou de leurs auteurs et sont utilisées avec leur aimable autorisation.</li>
+</ul>
+<h3 id="création-de-liens-vers-le-site">Création de liens vers le site</h3>
+<p>Le site XXXXX autorise, sans autorisation préalable, la mise en place de liens hypertextes pointant vers ses pages, sous réserve de :</p>
+<ul>
+<li>ne pas utiliser la technique du lien profond, c’est-à-dire que les pages du site XXXX ne doivent pas être imbriquées à l’intérieur des pages d’un autre site, mais visibles par l’ouverture d’une fenêtre indépendante.
+mentionner la source qui pointera grâce à un lien hypertexte directement sur le contenu visé.</li>
+<li>ne pas utiliser le logotype de l&rsquo;association sans autorisation
+Les sites qui font le choix de pointer vers XXXXXX engagent leur responsabilité dès lors qu’ils porteraient atteinte à l’image du site.</li>
+</ul>
+<h3 id="responsabilité-face-aux-liens-vers-dautres-sites">Responsabilité face aux liens vers d’autres sites</h3>
+<p>Le site XXXXX propose des liens vers d’autres sites.
+Chaque fois, il est systématiquement précisé vers quel site nous vous proposons d’aller. Ces pages, dont les adresses sont régulièrement vérifiées, ne font pas partie du site XXXXX : elles n’engagent pas la responsabilité de la rédaction du site qui ne peut être tenue pour responsable des contenus vers lesquels ces liens pointent. Ils ne visent qu’à permettre à l’internaute d’accéder plus facilement à d’autres ressources documentaires sur le sujet consulté.</p>
+<h3 id="environnement-technique">Environnement technique</h3>
+<p>Site réalise avec le générateur de site <a href="https://gohugo.io/">Hugo</a></p>
 
 
 
@@ -314,7 +358,7 @@
 
   
 
-  
+  <!-- Script pour le menu -->
 
   <script  language="javascript" type="text/javascript"  src="/js/nav.js"></script>
 
