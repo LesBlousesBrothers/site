@@ -9,26 +9,26 @@ draft = false
 <div class="pl-4 text-lg">
     <a href= "tel:0606060606">
         <img class="w-8 inline  align-middle pb-4 "  src="/svg/phone.svg">
-        <span class="pl-32">06-06-06-06-06</span>
+        <span class="pl-8 md:pl-32">06-06-06-06-06</span>
     </a>
 </div>
 
 <div class="pl-4 text-lg">
     <a href="mailto:ccc@zzz.yy">
         <img class="w-8 inline  align-middle pb-4 "  src="/svg/mail.svg">
-        <span class="pl-32">ccc@zzz.yy</span>
+        <span class="pl-8 md:pl-32">ccc@zzz.yy</span>
     </a>
 </div>
 <div class="pl-4 text-lg">
     <a href="#">
         <img class="w-8 inline  align-middle pb-4 "  src="/svg/adresse.svg">
-        <span class="pl-32">chemin de YY 82 ZZZ</span>
+        <span class="pl-8 md:pl-32">chemin de YY 82 ZZZ</span>
     </a>
 </div>
 <div class="pl-4 text-lg">
     <a href="https://www.facebook.com/LesBlousesBrothers82/">
         <img class="w-8 inline  align-middle pb-4 "  src="/svg/piedPage/facebook.svg">
-        <span class="pl-32">Visitez notre page facebook</span>
+        <span class="pl-8 md:pl-32">Visitez notre page facebook</span>
     </a>
 </div>
 
