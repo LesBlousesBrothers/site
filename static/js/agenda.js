@@ -120,7 +120,7 @@ async function createHTML() {
         }); 
     };
     
-    document.getElementById("agenda").innerHTML = html;
+    document.getElementById("events").innerHTML = html;
 }
 
 

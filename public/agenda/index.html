@@ -183,16 +183,16 @@
 </div>
 <br>
 <div class=" flex space-x-0">
-  <button class="bg-mycolor-300 hover:bg-mycolor-600 text-mycolor-600 hover:text-mycolor-100 font-bold py-2  rounded-t-2xl w-28 md:w-56 border border-mycolor-600 " onclick="showEvents()">
+  <button id="buttonEvents" class="bg-mycolor-600 text-mycolor-100  font-bold py-2  rounded-t-2xl w-28 md:w-56 border border-mycolor-600 " onclick="showEvents()">
   Evénements
   </button>
-  <button class="bg-mycolor-300 hover:bg-mycolor-600 text-mycolor-600 hover:text-mycolor-100 font-bold py-2  rounded-t-2xl w-28 md:w-56 border border-mycolor-600" onclick="showAgenda()">
+  <button id="buttonAgenda"class="bg-mycolor-300 text-mycolor-600  font-bold py-2  rounded-t-2xl w-28 md:w-56 border border-mycolor-300" onclick="showAgenda()">
     Agenda
   </button>
 </div>
 
 
-<div id="agendaGoogle" class="bg-mycolor-600 text-center text-mycolor-0 hidden"> 
+<div id="agendaGoogle" class="bg-mycolor-300 text-center text-mycolor-0 hidden"> 
 
 <h2 class="text-mycolor-0">NOTRE AGENDA</h2>
 
@@ -201,24 +201,55 @@
 
 
 
-<div id="agenda" class=" bg-mycolor-600 "></div>
+<div id="events" class=" bg-mycolor-600 "></div>
 
 <script src="/js/agenda.js"></script>
 
 <script>
     function showAgenda() {
       let agendaGoogle = document.getElementById("agendaGoogle");
-      let agenda = document.getElementById("agenda");
+      let events = document.getElementById("events");
       agendaGoogle.style.display = "block";
-      agenda.style.display = "none";
+      events.style.display = "none";
     }
 
     function showEvents() {
     let agendaGoogle = document.getElementById("agendaGoogle");
-      let agenda = document.getElementById("agenda");
+      let events = document.getElementById("events");
       agendaGoogle.style.display = "none";
-      agenda.style.display = "block";
-    }
+      events.style.display = "block";
+    };
+
+  
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+   
   </script>
 
 
